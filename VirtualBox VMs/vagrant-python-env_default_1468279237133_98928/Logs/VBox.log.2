@@ -1,0 +1,1289 @@
+VirtualBox VM 5.0.22 r108108 darwin.amd64 (Jun 16 2016 13:56:49) release log
+00:00:00.147786 Log opened 2017-09-19T13:54:32.365873000Z
+00:00:00.147788 Build Type: release
+00:00:00.147822 OS Product: Darwin
+00:00:00.147836 OS Release: 15.5.0
+00:00:00.147850 OS Version: Darwin Kernel Version 15.5.0: Tue Apr 19 18:36:36 PDT 2016; root:xnu-3248.50.21~8/RELEASE_X86_64
+00:00:00.148141 DMI Product Name: MacBookPro6,2
+00:00:00.148270 DMI Product Version: 1.0
+00:00:00.148289 Host RAM: 8192MB total, 2300MB available
+00:00:00.148293 Executable: /Applications/VirtualBox.app/Contents/MacOS/VBoxHeadless
+00:00:00.148294 Process ID: 1425
+00:00:00.148295 Package type: DARWIN_64BITS_GENERIC
+00:00:00.152528 Installed Extension Packs:
+00:00:00.152545   None installed!
+00:00:00.155160 Console: Machine state changed to 'Starting'
+00:00:00.415917 SUP: Loaded VMMR0.r0 (/Applications/VirtualBox.app/Contents/MacOS/VMMR0.r0) at 0xffffff913e496020 - ModuleInit at ffffff913e4b7630 and ModuleTerm at ffffff913e4b7600
+00:00:00.415941 SUP: VMMR0EntryEx located at ffffff913e4b7530 and VMMR0EntryFast at ffffff913e4b7cb0
+00:00:00.450352 Guest OS type: 'Ubuntu_64'
+00:00:00.460123 fHMForced=true - No raw-mode support in this build!
+00:00:00.477158 File system of '/Users/joelelster/VirtualBox VMs/vagrant-python-env_default_1468279237133_98928/Snapshots' (snapshots) is hfs
+00:00:00.477182 File system of '/Users/joelelster/VirtualBox VMs/vagrant-python-env_default_1468279237133_98928/box-disk1.vmdk' is hfs
+00:00:00.504635 Shared clipboard service loaded
+00:00:00.504653 Shared clipboard mode: Off
+00:00:00.518147 Drag and drop service loaded
+00:00:00.518167 Drag and drop mode: Off
+00:00:00.528544 Guest Control service loaded
+00:00:00.533219 Per-VM extradata API settings:
+00:00:00.533232   VBoxInternal2/SharedFoldersEnableSymlinksCreate/vagrant="1"
+00:00:00.533980 ************************* CFGM dump *************************
+00:00:00.533989 [/] (level 0)
+00:00:00.534438   CpuExecutionCap   <integer> = 0x0000000000000064 (100)
+00:00:00.534444   EnablePAE         <integer> = 0x0000000000000000 (0)
+00:00:00.534446   HMEnabled         <integer> = 0x0000000000000001 (1)
+00:00:00.534447   MemBalloonSize    <integer> = 0x0000000000000000 (0)
+00:00:00.534448   Name              <string>  = "vagrant-python-env_default_1468279237133_98928" (cb=47)
+00:00:00.534450   NumCPUs           <integer> = 0x0000000000000001 (1)
+00:00:00.534451   PageFusionAllowed <integer> = 0x0000000000000000 (0)
+00:00:00.534452   RamHoleSize       <integer> = 0x0000000020000000 (536 870 912, 512 MB)
+00:00:00.534454   RamSize           <integer> = 0x0000000020000000 (536 870 912, 512 MB)
+00:00:00.534457   TimerMillies      <integer> = 0x000000000000000a (10)
+00:00:00.534458   UUID              <bytes>   = "b6 e9 7d 6e 48 a4 90 4e 88 79 78 6d 88 79 d9 79" (cb=16)
+00:00:00.534467 
+00:00:00.534467 [/CPUM/] (level 1)
+00:00:00.534469   PortableCpuIdLevel <integer> = 0x0000000000000000 (0)
+00:00:00.534470 
+00:00:00.534470 [/DBGF/] (level 1)
+00:00:00.534472   Path <string>  = "/Users/joelelster/VirtualBox VMs/vagrant-python-env_default_1468279237133_98928/debug/;/Users/joelelster/VirtualBox VMs/vagrant-python-env_default_1468279237133_98928/;/Users/joelelster/" (cb=187)
+00:00:00.534473 
+00:00:00.534474 [/Devices/] (level 1)
+00:00:00.534475 
+00:00:00.534475 [/Devices/8237A/] (level 2)
+00:00:00.534477 
+00:00:00.534477 [/Devices/8237A/0/] (level 3)
+00:00:00.534479   Trusted <integer> = 0x0000000000000001 (1)
+00:00:00.534480 
+00:00:00.534481 [/Devices/VMMDev/] (level 2)
+00:00:00.534482 
+00:00:00.534483 [/Devices/VMMDev/0/] (level 3)
+00:00:00.534485   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:00.534486   PCIDeviceNo   <integer> = 0x0000000000000004 (4)
+00:00:00.534487   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:00.534488   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:00.534489 
+00:00:00.534490 [/Devices/VMMDev/0/Config/] (level 4)
+00:00:00.534492   GuestCoreDumpDir <string>  = "/Users/joelelster/VirtualBox VMs/vagrant-python-env_default_1468279237133_98928/Snapshots" (cb=90)
+00:00:00.534493   RamSize          <integer> = 0x0000000020000000 (536 870 912, 512 MB)
+00:00:00.534495 
+00:00:00.534496 [/Devices/VMMDev/0/LUN#0/] (level 4)
+00:00:00.534498   Driver <string>  = "HGCM" (cb=5)
+00:00:00.534499 
+00:00:00.534499 [/Devices/VMMDev/0/LUN#0/Config/] (level 5)
+00:00:00.534501   Object <integer> = 0x00007f9b8be10640 (140 306 043 438 656)
+00:00:00.534503 
+00:00:00.534504 [/Devices/VMMDev/0/LUN#999/] (level 4)
+00:00:00.534505   Driver <string>  = "MainStatus" (cb=11)
+00:00:00.534506 
+00:00:00.534507 [/Devices/VMMDev/0/LUN#999/Config/] (level 5)
+00:00:00.534509   First   <integer> = 0x0000000000000000 (0)
+00:00:00.534510   Last    <integer> = 0x0000000000000000 (0)
+00:00:00.534511   papLeds <integer> = 0x00007f9b8c05b858 (140 306 045 843 544)
+00:00:00.534513 
+00:00:00.534514 [/Devices/acpi/] (level 2)
+00:00:00.534515 
+00:00:00.534515 [/Devices/acpi/0/] (level 3)
+00:00:00.534517   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:00.534518   PCIDeviceNo   <integer> = 0x0000000000000007 (7)
+00:00:00.534519   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:00.534520   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:00.534521 
+00:00:00.534522 [/Devices/acpi/0/Config/] (level 4)
+00:00:00.534524   CpuHotPlug          <integer> = 0x0000000000000000 (0)
+00:00:00.534525   FdcEnabled          <integer> = 0x0000000000000000 (0)
+00:00:00.534526   HostBusPciAddress   <integer> = 0x0000000000000000 (0)
+00:00:00.534527   HpetEnabled         <integer> = 0x0000000000000000 (0)
+00:00:00.534528   IOAPIC              <integer> = 0x0000000000000001 (1)
+00:00:00.534530   IocPciAddress       <integer> = 0x0000000000010000 (65 536)
+00:00:00.534531   NumCPUs             <integer> = 0x0000000000000001 (1)
+00:00:00.534532   Parallel0IoPortBase <integer> = 0x0000000000000000 (0)
+00:00:00.534533   Parallel0Irq        <integer> = 0x0000000000000000 (0)
+00:00:00.534535   Parallel1IoPortBase <integer> = 0x0000000000000000 (0)
+00:00:00.534536   Parallel1Irq        <integer> = 0x0000000000000000 (0)
+00:00:00.534538   RamHoleSize         <integer> = 0x0000000020000000 (536 870 912, 512 MB)
+00:00:00.534540   RamSize             <integer> = 0x0000000020000000 (536 870 912, 512 MB)
+00:00:00.534543   Serial0IoPortBase   <integer> = 0x0000000000000000 (0)
+00:00:00.534545   Serial0Irq          <integer> = 0x0000000000000000 (0)
+00:00:00.534546   Serial1IoPortBase   <integer> = 0x0000000000000000 (0)
+00:00:00.534548   Serial1Irq          <integer> = 0x0000000000000000 (0)
+00:00:00.534549   ShowCpu             <integer> = 0x0000000000000001 (1)
+00:00:00.534551   ShowRtc             <integer> = 0x0000000000000000 (0)
+00:00:00.534553   SmcEnabled          <integer> = 0x0000000000000000 (0)
+00:00:00.534555 
+00:00:00.534555 [/Devices/acpi/0/LUN#0/] (level 4)
+00:00:00.534557   Driver <string>  = "ACPIHost" (cb=9)
+00:00:00.534559 
+00:00:00.534559 [/Devices/acpi/0/LUN#0/Config/] (level 5)
+00:00:00.534562 
+00:00:00.534563 [/Devices/ahci/] (level 2)
+00:00:00.534565 
+00:00:00.534565 [/Devices/ahci/0/] (level 3)
+00:00:00.534567   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:00.534568   PCIDeviceNo   <integer> = 0x000000000000000d (13)
+00:00:00.534569   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:00.534570   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:00.534572 
+00:00:00.534572 [/Devices/ahci/0/Config/] (level 4)
+00:00:00.534574   Bootable  <integer> = 0x0000000000000001 (1)
+00:00:00.534575   PortCount <integer> = 0x0000000000000001 (1)
+00:00:00.534576 
+00:00:00.534577 [/Devices/ahci/0/Config/Port0/] (level 5)
+00:00:00.534578   Hotpluggable        <integer> = 0x0000000000000001 (1)
+00:00:00.534580   NonRotationalMedium <integer> = 0x0000000000000000 (0)
+00:00:00.534581 
+00:00:00.534581 [/Devices/ahci/0/LUN#0/] (level 4)
+00:00:00.534583   Driver <string>  = "Block" (cb=6)
+00:00:00.534584 
+00:00:00.534584 [/Devices/ahci/0/LUN#0/AttachedDriver/] (level 5)
+00:00:00.534586   Driver <string>  = "VD" (cb=3)
+00:00:00.534587 
+00:00:00.534587 [/Devices/ahci/0/LUN#0/AttachedDriver/Config/] (level 6)
+00:00:00.534590   Format <string>  = "VMDK" (cb=5)
+00:00:00.534591   Path   <string>  = "/Users/joelelster/VirtualBox VMs/vagrant-python-env_default_1468279237133_98928/box-disk1.vmdk" (cb=95)
+00:00:00.534592   Type   <string>  = "HardDisk" (cb=9)
+00:00:00.534593 
+00:00:00.534593 [/Devices/ahci/0/LUN#0/Config/] (level 5)
+00:00:00.534595   Mountable <integer> = 0x0000000000000000 (0)
+00:00:00.534596   Type      <string>  = "HardDisk" (cb=9)
+00:00:00.534597 
+00:00:00.534598 [/Devices/ahci/0/LUN#999/] (level 4)
+00:00:00.534599   Driver <string>  = "MainStatus" (cb=11)
+00:00:00.534600 
+00:00:00.534601 [/Devices/ahci/0/LUN#999/Config/] (level 5)
+00:00:00.534603   DeviceInstance        <string>  = "ahci/0" (cb=7)
+00:00:00.534604   First                 <integer> = 0x0000000000000000 (0)
+00:00:00.534605   Last                  <integer> = 0x0000000000000000 (0)
+00:00:00.534607   pConsole              <integer> = 0x00007f9b8c05b200 (140 306 045 841 920)
+00:00:00.534609   papLeds               <integer> = 0x00007f9b8c05b548 (140 306 045 842 760)
+00:00:00.534611   pmapMediumAttachments <integer> = 0x00007f9b8c05b878 (140 306 045 843 576)
+00:00:00.534613 
+00:00:00.534613 [/Devices/apic/] (level 2)
+00:00:00.534615 
+00:00:00.534615 [/Devices/apic/0/] (level 3)
+00:00:00.534617   Trusted <integer> = 0x0000000000000001 (1)
+00:00:00.534618 
+00:00:00.534618 [/Devices/apic/0/Config/] (level 4)
+00:00:00.534620   IOAPIC  <integer> = 0x0000000000000001 (1)
+00:00:00.534621   NumCPUs <integer> = 0x0000000000000001 (1)
+00:00:00.534622 
+00:00:00.534622 [/Devices/e1000/] (level 2)
+00:00:00.534624 
+00:00:00.534624 [/Devices/e1000/0/] (level 3)
+00:00:00.534626   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:00.534627   PCIDeviceNo   <integer> = 0x0000000000000003 (3)
+00:00:00.534628   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:00.534629   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:00.534630 
+00:00:00.534631 [/Devices/e1000/0/Config/] (level 4)
+00:00:00.534633   AdapterType    <integer> = 0x0000000000000000 (0)
+00:00:00.534634   CableConnected <integer> = 0x0000000000000001 (1)
+00:00:00.534635   LineSpeed      <integer> = 0x0000000000000000 (0)
+00:00:00.534636   MAC            <bytes>   = "08 00 27 ab db 70" (cb=6)
+00:00:00.534638 
+00:00:00.534639 [/Devices/e1000/0/LUN#0/] (level 4)
+00:00:00.534641   Driver <string>  = "NAT" (cb=4)
+00:00:00.534641 
+00:00:00.534642 [/Devices/e1000/0/LUN#0/Config/] (level 5)
+00:00:00.534644   AliasMode       <integer> = 0x0000000000000000 (0)
+00:00:00.534645   BootFile        <string>  = "vagrant-python-env_default_1468279237133_98928.pxe" (cb=51)
+00:00:00.534646   DNSProxy        <integer> = 0x0000000000000001 (1)
+00:00:00.534647   Network         <string>  = "10.0.2.0/24" (cb=12)
+00:00:00.534649   PassDomain      <integer> = 0x0000000000000001 (1)
+00:00:00.534650   TFTPPrefix      <string>  = "/Users/joelelster/Library/VirtualBox/TFTP" (cb=42)
+00:00:00.534651   UseHostResolver <integer> = 0x0000000000000000 (0)
+00:00:00.534652 
+00:00:00.534652 [/Devices/e1000/0/LUN#0/Config/ssh/] (level 6)
+00:00:00.534654   BindIP    <string>  = "127.0.0.1" (cb=10)
+00:00:00.534655   GuestPort <integer> = 0x0000000000000016 (22)
+00:00:00.534657   HostPort  <integer> = 0x00000000000008ae (2 222)
+00:00:00.534658   Protocol  <string>  = "TCP" (cb=4)
+00:00:00.534659 
+00:00:00.534659 [/Devices/e1000/0/LUN#0/Config/tcp5000/] (level 6)
+00:00:00.534661   GuestPort <integer> = 0x0000000000001388 (5 000)
+00:00:00.534663   HostPort  <integer> = 0x0000000000001388 (5 000)
+00:00:00.534664   Protocol  <string>  = "TCP" (cb=4)
+00:00:00.534665 
+00:00:00.534665 [/Devices/e1000/0/LUN#0/Config/tcp8000/] (level 6)
+00:00:00.534667   GuestPort <integer> = 0x0000000000001f40 (8 000)
+00:00:00.534668   HostPort  <integer> = 0x0000000000001f40 (8 000)
+00:00:00.534670   Protocol  <string>  = "TCP" (cb=4)
+00:00:00.534670 
+00:00:00.534671 [/Devices/e1000/0/LUN#999/] (level 4)
+00:00:00.534673   Driver <string>  = "MainStatus" (cb=11)
+00:00:00.534673 
+00:00:00.534674 [/Devices/e1000/0/LUN#999/Config/] (level 5)
+00:00:00.534676   First   <integer> = 0x0000000000000000 (0)
+00:00:00.534677   Last    <integer> = 0x0000000000000000 (0)
+00:00:00.534678   papLeds <integer> = 0x00007f9b8c05b738 (140 306 045 843 256)
+00:00:00.534680 
+00:00:00.534681 [/Devices/i8254/] (level 2)
+00:00:00.534682 
+00:00:00.534683 [/Devices/i8254/0/] (level 3)
+00:00:00.534684 
+00:00:00.534684 [/Devices/i8254/0/Config/] (level 4)
+00:00:00.534686 
+00:00:00.534687 [/Devices/i8259/] (level 2)
+00:00:00.534688 
+00:00:00.534688 [/Devices/i8259/0/] (level 3)
+00:00:00.534690   Trusted <integer> = 0x0000000000000001 (1)
+00:00:00.534691 
+00:00:00.534691 [/Devices/i8259/0/Config/] (level 4)
+00:00:00.534693 
+00:00:00.534693 [/Devices/ioapic/] (level 2)
+00:00:00.534695 
+00:00:00.534695 [/Devices/ioapic/0/] (level 3)
+00:00:00.534696   Trusted <integer> = 0x0000000000000001 (1)
+00:00:00.534698 
+00:00:00.534698 [/Devices/ioapic/0/Config/] (level 4)
+00:00:00.534700   NumCPUs <integer> = 0x0000000000000001 (1)
+00:00:00.534701 
+00:00:00.534701 [/Devices/mc146818/] (level 2)
+00:00:00.534702 
+00:00:00.534703 [/Devices/mc146818/0/] (level 3)
+00:00:00.534704 
+00:00:00.534705 [/Devices/mc146818/0/Config/] (level 4)
+00:00:00.534707   UseUTC <integer> = 0x0000000000000001 (1)
+00:00:00.534708 
+00:00:00.534708 [/Devices/parallel/] (level 2)
+00:00:00.534709 
+00:00:00.534710 [/Devices/pcarch/] (level 2)
+00:00:00.534711 
+00:00:00.534712 [/Devices/pcarch/0/] (level 3)
+00:00:00.534713   Trusted <integer> = 0x0000000000000001 (1)
+00:00:00.534714 
+00:00:00.534715 [/Devices/pcarch/0/Config/] (level 4)
+00:00:00.534716 
+00:00:00.534717 [/Devices/pcbios/] (level 2)
+00:00:00.534718 
+00:00:00.534719 [/Devices/pcbios/0/] (level 3)
+00:00:00.534720   Trusted <integer> = 0x0000000000000001 (1)
+00:00:00.534721 
+00:00:00.534722 [/Devices/pcbios/0/Config/] (level 4)
+00:00:00.534724   BootDevice0        <string>  = "IDE" (cb=4)
+00:00:00.534725   BootDevice1        <string>  = "NONE" (cb=5)
+00:00:00.534726   BootDevice2        <string>  = "NONE" (cb=5)
+00:00:00.534727   BootDevice3        <string>  = "NONE" (cb=5)
+00:00:00.534728   FloppyDevice       <string>  = "i82078" (cb=7)
+00:00:00.534729   HardDiskDevice     <string>  = "piix3ide" (cb=9)
+00:00:00.534730   IOAPIC             <integer> = 0x0000000000000001 (1)
+00:00:00.534731   McfgBase           <integer> = 0x0000000000000000 (0)
+00:00:00.534733   McfgLength         <integer> = 0x0000000000000000 (0)
+00:00:00.534734   NumCPUs            <integer> = 0x0000000000000001 (1)
+00:00:00.534735   PXEDebug           <integer> = 0x0000000000000000 (0)
+00:00:00.534736   RamHoleSize        <integer> = 0x0000000020000000 (536 870 912, 512 MB)
+00:00:00.534738   RamSize            <integer> = 0x0000000020000000 (536 870 912, 512 MB)
+00:00:00.534740   SataHardDiskDevice <string>  = "ahci" (cb=5)
+00:00:00.534741   SataLUN1           <integer> = 0x0000000000000000 (0)
+00:00:00.534743   UUID               <bytes>   = "b6 e9 7d 6e 48 a4 90 4e 88 79 78 6d 88 79 d9 79" (cb=16)
+00:00:00.534746 
+00:00:00.534747 [/Devices/pcbios/0/Config/NetBoot/] (level 5)
+00:00:00.534749 
+00:00:00.534749 [/Devices/pcbios/0/Config/NetBoot/0/] (level 6)
+00:00:00.534751   NIC           <integer> = 0x0000000000000000 (0)
+00:00:00.534752   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:00.534753   PCIDeviceNo   <integer> = 0x0000000000000003 (3)
+00:00:00.534754   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:00.534756 
+00:00:00.534756 [/Devices/pci/] (level 2)
+00:00:00.534758 
+00:00:00.534758 [/Devices/pci/0/] (level 3)
+00:00:00.534759   Trusted <integer> = 0x0000000000000001 (1)
+00:00:00.534761 
+00:00:00.534761 [/Devices/pci/0/Config/] (level 4)
+00:00:00.534763   IOAPIC <integer> = 0x0000000000000001 (1)
+00:00:00.534764 
+00:00:00.534764 [/Devices/pckbd/] (level 2)
+00:00:00.534766 
+00:00:00.534766 [/Devices/pckbd/0/] (level 3)
+00:00:00.534768   Trusted <integer> = 0x0000000000000001 (1)
+00:00:00.534769 
+00:00:00.534769 [/Devices/pckbd/0/Config/] (level 4)
+00:00:00.534771 
+00:00:00.534772 [/Devices/pckbd/0/LUN#0/] (level 4)
+00:00:00.534773   Driver <string>  = "KeyboardQueue" (cb=14)
+00:00:00.534774 
+00:00:00.534775 [/Devices/pckbd/0/LUN#0/AttachedDriver/] (level 5)
+00:00:00.534777   Driver <string>  = "MainKeyboard" (cb=13)
+00:00:00.534778 
+00:00:00.534778 [/Devices/pckbd/0/LUN#0/AttachedDriver/Config/] (level 6)
+00:00:00.534780   Object <integer> = 0x00007f9b8be0e450 (140 306 043 429 968)
+00:00:00.534782 
+00:00:00.534782 [/Devices/pckbd/0/LUN#0/Config/] (level 5)
+00:00:00.534784   QueueSize <integer> = 0x0000000000000040 (64)
+00:00:00.534785 
+00:00:00.534786 [/Devices/pckbd/0/LUN#1/] (level 4)
+00:00:00.534788   Driver <string>  = "MouseQueue" (cb=11)
+00:00:00.534789 
+00:00:00.534789 [/Devices/pckbd/0/LUN#1/AttachedDriver/] (level 5)
+00:00:00.534791   Driver <string>  = "MainMouse" (cb=10)
+00:00:00.534792 
+00:00:00.534793 [/Devices/pckbd/0/LUN#1/AttachedDriver/Config/] (level 6)
+00:00:00.534795   Object <integer> = 0x00007f9b8be0ea80 (140 306 043 431 552)
+00:00:00.534797 
+00:00:00.534797 [/Devices/pckbd/0/LUN#1/Config/] (level 5)
+00:00:00.534799   QueueSize <integer> = 0x0000000000000080 (128)
+00:00:00.534800 
+00:00:00.534801 [/Devices/pcnet/] (level 2)
+00:00:00.534802 
+00:00:00.534802 [/Devices/serial/] (level 2)
+00:00:00.534804 
+00:00:00.534804 [/Devices/vga/] (level 2)
+00:00:00.534805 
+00:00:00.534806 [/Devices/vga/0/] (level 3)
+00:00:00.534807   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:00.534809   PCIDeviceNo   <integer> = 0x0000000000000002 (2)
+00:00:00.534810   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:00.534811   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:00.534812 
+00:00:00.534812 [/Devices/vga/0/Config/] (level 4)
+00:00:00.534814   CustomVideoModes <integer> = 0x0000000000000000 (0)
+00:00:00.534815   FadeIn           <integer> = 0x0000000000000001 (1)
+00:00:00.534816   FadeOut          <integer> = 0x0000000000000001 (1)
+00:00:00.534818   HeightReduction  <integer> = 0x0000000000000000 (0)
+00:00:00.534819   LogoFile         <string>  = "" (cb=1)
+00:00:00.534820   LogoTime         <integer> = 0x0000000000000000 (0)
+00:00:00.534821   MonitorCount     <integer> = 0x0000000000000001 (1)
+00:00:00.534822   ShowBootMenu     <integer> = 0x0000000000000002 (2)
+00:00:00.534823   VRamSize         <integer> = 0x0000000000c00000 (12 582 912, 12 MB)
+00:00:00.534825 
+00:00:00.534826 [/Devices/vga/0/LUN#0/] (level 4)
+00:00:00.534827   Driver <string>  = "MainDisplay" (cb=12)
+00:00:00.534828 
+00:00:00.534829 [/Devices/vga/0/LUN#0/Config/] (level 5)
+00:00:00.534831   Object <integer> = 0x00007f9b8c869200 (140 306 054 287 872)
+00:00:00.534832 
+00:00:00.534833 [/Devices/vga/0/LUN#999/] (level 4)
+00:00:00.534835   Driver <string>  = "MainStatus" (cb=11)
+00:00:00.534836 
+00:00:00.534836 [/Devices/vga/0/LUN#999/Config/] (level 5)
+00:00:00.534838   First   <integer> = 0x0000000000000000 (0)
+00:00:00.534839   Last    <integer> = 0x0000000000000000 (0)
+00:00:00.534840   papLeds <integer> = 0x00007f9b8c05b870 (140 306 045 843 568)
+00:00:00.534842 
+00:00:00.534842 [/Devices/virtio-net/] (level 2)
+00:00:00.534844 
+00:00:00.534844 [/EM/] (level 1)
+00:00:00.534845   TripleFaultReset <integer> = 0x0000000000000000 (0)
+00:00:00.534847 
+00:00:00.534847 [/GIM/] (level 1)
+00:00:00.534848   Provider <string>  = "None" (cb=5)
+00:00:00.534849 
+00:00:00.534850 [/HM/] (level 1)
+00:00:00.534851   64bitEnabled       <integer> = 0x0000000000000001 (1)
+00:00:00.534852   EnableLargePages   <integer> = 0x0000000000000000 (0)
+00:00:00.534853   EnableNestedPaging <integer> = 0x0000000000000001 (1)
+00:00:00.534854   EnableUX           <integer> = 0x0000000000000001 (1)
+00:00:00.534855   EnableVPID         <integer> = 0x0000000000000001 (1)
+00:00:00.534856   Exclusive          <integer> = 0x0000000000000000 (0)
+00:00:00.534858   HMForced           <integer> = 0x0000000000000001 (1)
+00:00:00.534859 
+00:00:00.534859 [/MM/] (level 1)
+00:00:00.534861   CanUseLargerHeap <integer> = 0x0000000000000000 (0)
+00:00:00.534861 
+00:00:00.534862 [/PDM/] (level 1)
+00:00:00.534863 
+00:00:00.534864 [/PDM/AsyncCompletion/] (level 2)
+00:00:00.534865 
+00:00:00.534865 [/PDM/AsyncCompletion/File/] (level 3)
+00:00:00.534867 
+00:00:00.534867 [/PDM/AsyncCompletion/File/BwGroups/] (level 4)
+00:00:00.534869 
+00:00:00.534870 [/PDM/BlkCache/] (level 2)
+00:00:00.534871   CacheSize <integer> = 0x0000000000500000 (5 242 880, 5 MB)
+00:00:00.534873 
+00:00:00.534873 [/PDM/Devices/] (level 2)
+00:00:00.534875 
+00:00:00.534875 [/PDM/Drivers/] (level 2)
+00:00:00.534876 
+00:00:00.534877 [/PDM/Drivers/VBoxC/] (level 3)
+00:00:00.534878   Path <string>  = "/Applications/VirtualBox.app/Contents/MacOS/components/VBoxC" (cb=61)
+00:00:00.534879 
+00:00:00.534880 [/PDM/NetworkShaper/] (level 2)
+00:00:00.534881 
+00:00:00.534882 [/PDM/NetworkShaper/BwGroups/] (level 3)
+00:00:00.534883 
+00:00:00.534884 [/TM/] (level 1)
+00:00:00.534885   UTCOffset <integer> = 0x0000000000000000 (0)
+00:00:00.534886 
+00:00:00.534887 ********************* End of CFGM dump **********************
+00:00:00.534890 VM: fHMEnabled=true  (configured) fRecompileUser=false fRecompileSupervisor=false
+00:00:00.534897 VM: fRawRing1Enabled=false CSAM=false PATM=false
+00:00:00.545739 HM: HMR3Init: VT-x w/ nested paging and unrestricted guest execution hw support
+00:00:00.545854 MM: cbHyperHeap=0x100000 (1048576)
+00:00:00.548490 CPUM: fXStateHostMask=0x0; initial: 0x0; host XCR0=0x0
+00:00:00.549691 CPUM: Matched host CPU INTEL 0x6/0x25/0x5 Intel_Core7_Westmere with CPU DB entry 'Intel Core i7-3960X' (INTEL 0x6/0x2d/0x6 Intel_Core7_SandyBridge)
+00:00:00.562060 PGM: HCPhysInterPD=0000000011ba9000 HCPhysInterPaePDPT=0000000011bac000 HCPhysInterPaePML4=0000000011bae000
+00:00:00.562085 PGM: apInterPTs={0000000011baa000,0000000011bab000} apInterPaePTs={000000004dba4000,0000000184165000} apInterPaePDs={0000000239666000,0000000163567000,0000000139f68000,00000002200a9000} pInterPaePDPT64=0000000011bad000
+00:00:00.562100 PGM: Host paging mode: AMD64+PGE+NX
+00:00:00.562115 PGM: PGMPool: cMaxPages=288 (u64MaxPages=288)
+00:00:00.562125 PGM: pgmR3PoolInit: cMaxPages=0x120 cMaxUsers=0x240 cMaxPhysExts=0x240 fCacheEnable=true 
+00:00:00.581768 TM: GIP - u32Mode=3 (Invariant) u32UpdateHz=100 u32UpdateIntervalNS=10000000 enmUseTscDelta=2 (Pratically Zero) fGetGipCpu=0x5 cCpus=4
+00:00:00.581807 TM: GIP - u64CpuHz=2 394 138 835 (0x8eb3a8d3)  SUPGetCpuHzFromGip => 2 394 138 835
+00:00:00.581817 TM: GIP - CPU: iCpuSet=0x0 idCpu=0x0 idApic=0x0 iGipCpu=0x1 i64TSCDelta=0 enmState=3 u64CpuHz=2394127086(*) cErrors=0
+00:00:00.581824 TM: GIP - CPU: iCpuSet=0x1 idCpu=0x1 idApic=0x1 iGipCpu=0x0 i64TSCDelta=0 enmState=3 u64CpuHz=2394138835(*) cErrors=0
+00:00:00.581830 TM: GIP - CPU: iCpuSet=0x2 idCpu=0x2 idApic=0x4 iGipCpu=0x3 i64TSCDelta=0 enmState=3 u64CpuHz=2394138811(*) cErrors=0
+00:00:00.581836 TM: GIP - CPU: iCpuSet=0x3 idCpu=0x3 idApic=0x5 iGipCpu=0x2 i64TSCDelta=0 enmState=3 u64CpuHz=2394138905(*) cErrors=0
+00:00:00.582404 TM: cTSCTicksPerSecond=2 394 138 835 (0x8eb3a8d3) enmTSCMode=3 (Dynamic)
+00:00:00.582409 TM: TSCTiedToExecution=false TSCNotTiedToHalt=false
+00:00:00.583619 GIM: Using provider 'None' (Implementation version: 0)
+00:00:00.583709 AIOMgr: Default manager type is 'Async'
+00:00:00.583720 AIOMgr: Default file backend is 'NonBuffered'
+00:00:00.583857 BlkCache: Cache successfully initialized. Cache size is 5242880 bytes
+00:00:00.583868 BlkCache: Cache commit interval is 10000 ms
+00:00:00.583873 BlkCache: Cache commit threshold is 2621440 bytes
+00:00:00.647657 PcBios: [SMP] BIOS with 1 CPUs
+00:00:00.649588 PcBios: MPS table at 000e1300
+00:00:00.671292 SUP: Loaded VBoxDDR0.r0 (/Applications/VirtualBox.app/Contents/MacOS/VBoxDDR0.r0) at 0xffffff912ad56020 - ModuleInit at 0000000000000000 and ModuleTerm at 0000000000000000
+00:00:00.674036 SUP: Loaded VBoxDD2R0.r0 (/Applications/VirtualBox.app/Contents/MacOS/VBoxDD2R0.r0) at 0xffffff9116529020 - ModuleInit at 0000000000000000 and ModuleTerm at 0000000000000000
+00:00:00.674146 APIC: Activating Local APIC
+00:00:00.674166 CPUM: SetGuestCpuIdFeature: Enabled APIC
+00:00:00.675385 IOAPIC: Using implementation 2.0!
+00:00:00.675500 PIT: mode=3 count=0x10000 (65536) - 18.20 Hz (ch=0)
+00:00:00.696737 Shared Folders service loaded
+00:00:00.743548 DrvBlock: Flushes will be ignored
+00:00:00.743571 DrvBlock: Async flushes will be passed to the disk
+00:00:00.743827 VD: VDInit finished
+00:00:00.748186 VD: Opening the disk took 4541373 ns
+00:00:00.748264 AHCI: LUN#0: disk, PCHS=16383/16/63, total number of sectors 83886080
+00:00:00.748288 AHCI: LUN#0: using normal I/O
+00:00:00.748562 AHCI#0: Reset the HBA
+00:00:00.759936 NAT: Guest address guess set to 10.0.2.15 by initialization
+00:00:00.760149 NAT: resolv.conf: nameserver 8.8.8.8
+00:00:00.760159 NAT: resolv.conf: nameserver 8.8.4.4
+00:00:00.760181 NAT: DNS#0: 8.8.8.8
+00:00:00.760186 NAT: DNS#1: 8.8.4.4
+00:00:00.760272 NAT: Set redirect TCP 127.0.0.1:2222 -> 0.0.0.0:22
+00:00:00.760297 NAT: Set redirect TCP 0.0.0.0:5000 -> 0.0.0.0:5000
+00:00:00.760318 NAT: Set redirect TCP 0.0.0.0:8000 -> 0.0.0.0:8000
+00:00:00.763552 PcBios: SATA LUN#0 LCHS=1024/255/63
+00:00:00.763675 PGM: The CPU physical address width is 36 bits
+00:00:00.763684 PGM: PGMR3InitFinalize: 4 MB PSE mask 0000000fffffffff
+00:00:00.763795 TM: TMR3InitFinalize: fTSCModeSwitchAllowed=false
+00:00:00.771948 VMM: Thread-context hooks unavailable
+00:00:00.772061 HM: Using VT-x implementation 2.0!
+00:00:00.772063 HM: Host CR4                        = 0x226e0
+00:00:00.772065 HM: Host EFER                       = 0xd01
+00:00:00.772066 HM: MSR_IA32_SMM_MONITOR_CTL        = 0x0
+00:00:00.772067 HM: MSR_IA32_FEATURE_CONTROL        = 0x5
+00:00:00.772068 HM: MSR_IA32_VMX_BASIC_INFO         = 0xda04000000000f
+00:00:00.772069 HM:   VMCS id                             = 0xf
+00:00:00.772070 HM:   VMCS size                           = 1024 bytes
+00:00:00.772072 HM:   VMCS physical address limit         = None
+00:00:00.772073 HM:   VMCS memory type                    = 0x6
+00:00:00.772074 HM:   Dual-monitor treatment support      = true 
+00:00:00.772075 HM:   OUTS & INS instruction-info         = true 
+00:00:00.772076 HM: Max resume loops                = 8192
+00:00:00.772077 HM: MSR_IA32_VMX_PINBASED_CTLS      = 0x7f00000016
+00:00:00.772078 HM:   VMX_VMCS_CTRL_PIN_EXEC_EXT_INT_EXIT
+00:00:00.772083 HM:   VMX_VMCS_CTRL_PIN_EXEC_NMI_EXIT
+00:00:00.772083 HM:   VMX_VMCS_CTRL_PIN_EXEC_VIRTUAL_NMI
+00:00:00.772086 HM:   VMX_VMCS_CTRL_PIN_EXEC_PREEMPT_TIMER
+00:00:00.772087 HM: MSR_IA32_VMX_PROCBASED_CTLS     = 0xfff9fffe0401e172
+00:00:00.772089 HM:   VMX_VMCS_CTRL_PROC_EXEC_INT_WINDOW_EXIT
+00:00:00.772089 HM:   VMX_VMCS_CTRL_PROC_EXEC_USE_TSC_OFFSETTING
+00:00:00.772090 HM:   VMX_VMCS_CTRL_PROC_EXEC_HLT_EXIT
+00:00:00.772091 HM:   VMX_VMCS_CTRL_PROC_EXEC_INVLPG_EXIT
+00:00:00.772091 HM:   VMX_VMCS_CTRL_PROC_EXEC_MWAIT_EXIT
+00:00:00.772092 HM:   VMX_VMCS_CTRL_PROC_EXEC_RDPMC_EXIT
+00:00:00.772092 HM:   VMX_VMCS_CTRL_PROC_EXEC_RDTSC_EXIT
+00:00:00.772093 HM:   VMX_VMCS_CTRL_PROC_EXEC_CR3_LOAD_EXIT (must be set)
+00:00:00.772096 HM:   VMX_VMCS_CTRL_PROC_EXEC_CR3_STORE_EXIT (must be set)
+00:00:00.772097 HM:   VMX_VMCS_CTRL_PROC_EXEC_CR8_LOAD_EXIT
+00:00:00.772098 HM:   VMX_VMCS_CTRL_PROC_EXEC_CR8_STORE_EXIT
+00:00:00.772099 HM:   VMX_VMCS_CTRL_PROC_EXEC_USE_TPR_SHADOW
+00:00:00.772099 HM:   VMX_VMCS_CTRL_PROC_EXEC_NMI_WINDOW_EXIT
+00:00:00.772100 HM:   VMX_VMCS_CTRL_PROC_EXEC_MOV_DR_EXIT
+00:00:00.772101 HM:   VMX_VMCS_CTRL_PROC_EXEC_UNCOND_IO_EXIT
+00:00:00.772101 HM:   VMX_VMCS_CTRL_PROC_EXEC_USE_IO_BITMAPS
+00:00:00.772102 HM:   VMX_VMCS_CTRL_PROC_EXEC_MONITOR_TRAP_FLAG
+00:00:00.772103 HM:   VMX_VMCS_CTRL_PROC_EXEC_USE_MSR_BITMAPS
+00:00:00.772103 HM:   VMX_VMCS_CTRL_PROC_EXEC_MONITOR_EXIT
+00:00:00.772104 HM:   VMX_VMCS_CTRL_PROC_EXEC_PAUSE_EXIT
+00:00:00.772104 HM:   VMX_VMCS_CTRL_PROC_EXEC_USE_SECONDARY_EXEC_CTRL
+00:00:00.772105 HM: MSR_IA32_VMX_PROCBASED_CTLS2    = 0xff00000000
+00:00:00.772106 HM:   VMX_VMCS_CTRL_PROC_EXEC2_VIRT_APIC
+00:00:00.772109 HM:   VMX_VMCS_CTRL_PROC_EXEC2_EPT
+00:00:00.772110 HM:   VMX_VMCS_CTRL_PROC_EXEC2_DESCRIPTOR_TABLE_EXIT
+00:00:00.772110 HM:   VMX_VMCS_CTRL_PROC_EXEC2_RDTSCP
+00:00:00.772111 HM:   VMX_VMCS_CTRL_PROC_EXEC2_VIRT_X2APIC
+00:00:00.772112 HM:   VMX_VMCS_CTRL_PROC_EXEC2_VPID
+00:00:00.772112 HM:   VMX_VMCS_CTRL_PROC_EXEC2_WBINVD_EXIT
+00:00:00.772113 HM:   VMX_VMCS_CTRL_PROC_EXEC2_UNRESTRICTED_GUEST
+00:00:00.772114 HM:   VMX_VMCS_CTRL_PROC_EXEC2_PAUSE_LOOP_EXIT (must be cleared)
+00:00:00.772114 HM:   VMX_VMCS_CTRL_PROC_EXEC2_RDRAND_EXIT (must be cleared)
+00:00:00.772117 HM:   VMX_VMCS_CTRL_PROC_EXEC2_INVPCID (must be cleared)
+00:00:00.772118 HM:   VMX_VMCS_CTRL_PROC_EXEC2_VMFUNC (must be cleared)
+00:00:00.772119 HM:   VMX_VMCS_CTRL_PROC_EXEC2_VMCS_SHADOWING (must be cleared)
+00:00:00.772119 HM:   VMX_VMCS_CTRL_PROC_EXEC2_RDSEED_EXIT (must be cleared)
+00:00:00.772120 HM:   VMX_VMCS_CTRL_PROC_EXEC2_EPT_VE (must be cleared)
+00:00:00.772120 HM:   VMX_VMCS_CTRL_PROC_EXEC2_XSAVES (must be cleared)
+00:00:00.772121 HM: MSR_IA32_VMX_ENTRY_CTLS         = 0xffff000011ff
+00:00:00.772122 HM:   VMX_VMCS_CTRL_ENTRY_LOAD_DEBUG (must be set)
+00:00:00.772123 HM:   VMX_VMCS_CTRL_ENTRY_IA32E_MODE_GUEST
+00:00:00.772123 HM:   VMX_VMCS_CTRL_ENTRY_ENTRY_SMM
+00:00:00.772124 HM:   VMX_VMCS_CTRL_ENTRY_DEACTIVATE_DUALMON
+00:00:00.772124 HM:   VMX_VMCS_CTRL_ENTRY_LOAD_GUEST_PERF_MSR
+00:00:00.772125 HM:   VMX_VMCS_CTRL_ENTRY_LOAD_GUEST_PAT_MSR
+00:00:00.772125 HM:   VMX_VMCS_CTRL_ENTRY_LOAD_GUEST_EFER_MSR
+00:00:00.772126 HM: MSR_IA32_VMX_EXIT_CTLS          = 0x7fffff00036dff
+00:00:00.772127 HM:   VMX_VMCS_CTRL_EXIT_SAVE_DEBUG (must be set)
+00:00:00.772128 HM:   VMX_VMCS_CTRL_EXIT_HOST_ADDR_SPACE_SIZE
+00:00:00.772128 HM:   VMX_VMCS_CTRL_EXIT_LOAD_PERF_MSR
+00:00:00.772129 HM:   VMX_VMCS_CTRL_EXIT_ACK_EXT_INT
+00:00:00.772130 HM:   VMX_VMCS_CTRL_EXIT_SAVE_GUEST_PAT_MSR
+00:00:00.772130 HM:   VMX_VMCS_CTRL_EXIT_LOAD_HOST_PAT_MSR
+00:00:00.772131 HM:   VMX_VMCS_CTRL_EXIT_SAVE_GUEST_EFER_MSR
+00:00:00.772131 HM:   VMX_VMCS_CTRL_EXIT_LOAD_HOST_EFER_MSR
+00:00:00.772132 HM:   VMX_VMCS_CTRL_EXIT_SAVE_VMX_PREEMPT_TIMER
+00:00:00.772132 HM: MSR_IA32_VMX_EPT_VPID_CAP       = 0xf0106114141
+00:00:00.772134 HM:   MSR_IA32_VMX_EPT_VPID_CAP_RWX_X_ONLY
+00:00:00.772137 HM:   MSR_IA32_VMX_EPT_VPID_CAP_GAW_48_BITS
+00:00:00.772137 HM:   MSR_IA32_VMX_EPT_VPID_CAP_EMT_UC
+00:00:00.772138 HM:   MSR_IA32_VMX_EPT_VPID_CAP_EMT_WB
+00:00:00.772138 HM:   MSR_IA32_VMX_EPT_VPID_CAP_SP_21_BITS
+00:00:00.772139 HM:   MSR_IA32_VMX_EPT_VPID_CAP_INVEPT
+00:00:00.772140 HM:   MSR_IA32_VMX_EPT_VPID_CAP_INVEPT_SINGLE_CONTEXT
+00:00:00.772140 HM:   MSR_IA32_VMX_EPT_VPID_CAP_INVEPT_ALL_CONTEXTS
+00:00:00.772141 HM:   MSR_IA32_VMX_EPT_VPID_CAP_INVVPID
+00:00:00.772142 HM:   MSR_IA32_VMX_EPT_VPID_CAP_INVVPID_INDIV_ADDR
+00:00:00.772142 HM:   MSR_IA32_VMX_EPT_VPID_CAP_INVVPID_SINGLE_CONTEXT
+00:00:00.772143 HM:   MSR_IA32_VMX_EPT_VPID_CAP_INVVPID_ALL_CONTEXTS
+00:00:00.772144 HM:   MSR_IA32_VMX_EPT_VPID_CAP_INVVPID_SINGLE_CONTEXT_RETAIN_GLOBALS
+00:00:00.772145 HM: MSR_IA32_VMX_MISC               = 0x401e7
+00:00:00.772146 HM:   MSR_IA32_VMX_MISC_PREEMPT_TSC_BIT      = 0x7 - erratum detected, using 0x0 instead
+00:00:00.772147 HM:   MSR_IA32_VMX_MISC_STORE_EFERLMA_VMEXIT = true 
+00:00:00.772148 HM:   MSR_IA32_VMX_MISC_ACTIVITY_STATES      = 0x7
+00:00:00.772149 HM:   MSR_IA32_VMX_MISC_CR3_TARGET           = 0x4
+00:00:00.772150 HM:   MSR_IA32_VMX_MISC_MAX_MSR              = 512
+00:00:00.772151 HM:   MSR_IA32_VMX_MISC_RDMSR_SMBASE_MSR_SMM = false
+00:00:00.772152 HM:   MSR_IA32_VMX_MISC_SMM_MONITOR_CTL_B2   = false
+00:00:00.772153 HM:   MSR_IA32_VMX_MISC_VMWRITE_VMEXIT_INFO  = false
+00:00:00.772154 HM:   MSR_IA32_VMX_MISC_MSEG_ID              = 0x0
+00:00:00.772155 HM: MSR_IA32_VMX_CR0_FIXED0         = 0x80000021
+00:00:00.772157 HM: MSR_IA32_VMX_CR0_FIXED1         = 0xffffffff
+00:00:00.772158 HM: MSR_IA32_VMX_CR4_FIXED0         = 0x2000
+00:00:00.772159 HM: MSR_IA32_VMX_CR4_FIXED1         = 0x267ff
+00:00:00.772160 HM: MSR_IA32_VMX_VMCS_ENUM          = 0x2a
+00:00:00.772161 HM:   MSR_IA32_VMX_VMCS_ENUM_HIGHEST_INDEX   = 0x15
+00:00:00.772162 HM: APIC-access page physaddr       = 0x00000000122b1000
+00:00:00.772163 HM: VCPU  0: MSR bitmap physaddr    = 0x00000000122b8000
+00:00:00.772165 HM: VCPU  0: VMCS physaddr          = 0x00000000122b3000
+00:00:00.772166 HM: Guest support: 32-bit and 64-bit
+00:00:00.772182 HM: Supports VMCS EFER fields       = true 
+00:00:00.772184 HM: VMX enabled!
+00:00:00.772187 CPUM: SetGuestCpuIdFeature: Enabled SYSENTER/EXIT
+00:00:00.772188 CPUM: SetGuestCpuIdFeature: Enabled PAE
+00:00:00.772189 CPUM: SetGuestCpuIdFeature: Enabled LONG MODE
+00:00:00.772189 CPUM: SetGuestCpuIdFeature: Enabled SYSCALL/RET
+00:00:00.772190 CPUM: SetGuestCpuIdFeature: Enabled LAHF/SAHF
+00:00:00.772191 CPUM: SetGuestCpuIdFeature: Enabled NX
+00:00:00.772191 HM: Nested paging enabled!
+00:00:00.772192 HM:   EPT flush type                = VMXFLUSHEPT_SINGLE_CONTEXT
+00:00:00.772193 HM: Unrestricted guest execution enabled!
+00:00:00.772194 HM: VPID enabled!
+00:00:00.772194 HM:   VPID flush type               = VMXFLUSHVPID_SINGLE_CONTEXT
+00:00:00.772195 HM: VMX-preemption timer enabled (cPreemptTimerShift=0)
+00:00:00.772196 HM: VT-x/AMD-V init method: GLOBAL
+00:00:00.772197 VMM: fUsePeriodicPreemptionTimers=false
+00:00:00.772449 CPUM: Logical host processors: 4 present, 4 max, 4 online, online mask: 000000000000000f
+00:00:00.772455 CPUM: Physical host cores: 2
+00:00:00.772456 ************************* CPUID dump ************************
+00:00:00.772465          Raw Standard CPUID Leaves
+00:00:00.772466      Leaf/sub-leaf  eax      ebx      ecx      edx
+00:00:00.772467 Gst: 00000000/0000  0000000b 756e6547 6c65746e 49656e69
+00:00:00.772469 Hst:                0000000b 756e6547 6c65746e 49656e69
+00:00:00.772471 Gst: 00000001/0000  00020655 00000800 0298220b 078bfbff
+00:00:00.772473 Hst:                00020655 00100800 029ae3ff bfebfbff
+00:00:00.772475 Gst: 00000002/0000  55035a01 00f0b2dd 00000000 09ca212c
+00:00:00.772476 Hst:                55035a01 00f0b2dd 00000000 09ca212c
+00:00:00.772478 Gst: 00000003/0000  00000000 00000000 00000000 00000000
+00:00:00.772479 Hst:                00000000 00000000 00000000 00000000
+00:00:00.772480 Gst: 00000004/0000  00000121 01c0003f 0000003f 00000000
+00:00:00.772482 Hst:                1c004121 01c0003f 0000003f 00000000
+00:00:00.772483 Gst: 00000004/0001  00000122 00c0003f 0000007f 00000000
+00:00:00.772485 Hst:                1c004122 00c0003f 0000007f 00000000
+00:00:00.772486 Gst: 00000004/0002  00000143 01c0003f 000001ff 00000000
+00:00:00.772488 Hst:                1c004143 01c0003f 000001ff 00000000
+00:00:00.772489 Gst: 00000004/0003  00000163 02c0003f 00000fff 00000002
+00:00:00.772490 Hst:                1c03c163 02c0003f 00000fff 00000002
+00:00:00.772492 Gst: 00000004/0004  00000000 00000000 00000000 00000000
+00:00:00.772493 Hst:                00000000 00000000 00000000 00000000
+00:00:00.772494 Gst: 00000005/0000  00000040 00000040 00000000 00000000
+00:00:00.772495 Hst:                00000040 00000040 00000003 00001120
+00:00:00.772497 Gst: 00000006/0000  00000000 00000000 00000000 00000000
+00:00:00.772498 Hst:                00000007 00000002 00000001 00000000
+00:00:00.772499 Gst: 00000007/0000  00000000 00000000 00000000 00000000
+00:00:00.772500 Hst:                00000000 00000000 00000000 00000000
+00:00:00.772501 Gst: 00000008/0000  00000000 00000000 00000000 00000000
+00:00:00.772502 Hst:                00000000 00000000 00000000 00000000
+00:00:00.772503 Gst: 00000009/0000  00000000 00000000 00000000 00000000
+00:00:00.772504 Hst:                00000000 00000000 00000000 00000000
+00:00:00.772505 Gst: 0000000a/0000  00000000 00000000 00000000 00000000
+00:00:00.772507 Hst:                07300403 00000004 00000000 00000603
+00:00:00.772508 Gst: 0000000b/0000  00000000 00000001 00000100 00000000
+00:00:00.772509 Hst:                00000001 00000002 00000100 00000000
+00:00:00.772510 Gst: 0000000b/0001  00000001 00000001 00000201 00000000
+00:00:00.772512 Hst:                00000004 00000004 00000201 00000000
+00:00:00.772513 Gst: 0000000b/0002  00000000 00000000 00000002 00000000
+00:00:00.772514 Hst:                00000000 00000000 00000002 00000000
+00:00:00.772515                                Name: GenuineIntel
+00:00:00.772517                            Supports: 0x00000000-0x0000000b
+00:00:00.772520                              Family:  6 	Extended: 0 	Effective: 6
+00:00:00.772522                               Model:  5 	Extended: 2 	Effective: 37
+00:00:00.772524                            Stepping: 5
+00:00:00.772525                                Type: 0 (primary)
+00:00:00.772526                             APIC ID: 0x00
+00:00:00.772528                        Logical CPUs: 0
+00:00:00.772529                        CLFLUSH Size: 8
+00:00:00.772530                            Brand ID: 0x00
+00:00:00.772531 Features
+00:00:00.772532   Mnemonic - Description                                  = guest (host)
+00:00:00.772536   FPU - x87 FPU on Chip                                   = 1 (1)
+00:00:00.772538   VME - Virtual 8086 Mode Enhancements                    = 1 (1)
+00:00:00.772540   DE - Debugging extensions                               = 1 (1)
+00:00:00.772541   PSE - Page Size Extension                               = 1 (1)
+00:00:00.772543   TSC - Time Stamp Counter                                = 1 (1)
+00:00:00.772545   MSR - Model Specific Registers                          = 1 (1)
+00:00:00.772546   PAE - Physical Address Extension                        = 1 (1)
+00:00:00.772548   MCE - Machine Check Exception                           = 1 (1)
+00:00:00.772549   CX8 - CMPXCHG8B instruction                             = 1 (1)
+00:00:00.772551   APIC - APIC On-Chip                                     = 1 (1)
+00:00:00.772552   SEP - SYSENTER and SYSEXIT Present                      = 1 (1)
+00:00:00.772554   MTRR - Memory Type Range Registers                      = 1 (1)
+00:00:00.772555   PGE - PTE Global Bit                                    = 1 (1)
+00:00:00.772557   MCA - Machine Check Architecture                        = 1 (1)
+00:00:00.772558   CMOV - Conditional Move instructions                    = 1 (1)
+00:00:00.772560   PAT - Page Attribute Table                              = 1 (1)
+00:00:00.772561   PSE-36 - 36-bit Page Size Extension                     = 1 (1)
+00:00:00.772563   PSN - Processor Serial Number                           = 0 (0)
+00:00:00.772564   CLFSH - CLFLUSH instruction                             = 1 (1)
+00:00:00.772566   DS - Debug Store                                        = 0 (1)
+00:00:00.772568   ACPI - Thermal Mon. & Soft. Clock Ctrl.                 = 0 (1)
+00:00:00.772569   MMX - Intel MMX Technology                              = 1 (1)
+00:00:00.772570   FXSR - FXSAVE and FXRSTOR instructions                  = 1 (1)
+00:00:00.772572   SSE - SSE support                                       = 1 (1)
+00:00:00.772574   SSE2 - SSE2 support                                     = 1 (1)
+00:00:00.772575   SS - Self Snoop                                         = 0 (1)
+00:00:00.772577   HTT - Hyper-Threading Technology                        = 0 (1)
+00:00:00.772579   TM - Therm. Monitor                                     = 0 (1)
+00:00:00.772580   PBE - Pending Break Enabled                             = 0 (1)
+00:00:00.772582   SSE3 - SSE3 support                                     = 1 (1)
+00:00:00.772584   PCLMUL - PCLMULQDQ support (for AES-GCM)                = 1 (1)
+00:00:00.772585   DTES64 - DS Area 64-bit Layout                          = 0 (1)
+00:00:00.772587   MONITOR - MONITOR/MWAIT instructions                    = 1 (1)
+00:00:00.772588   CPL-DS - CPL Qualified Debug Store                      = 0 (1)
+00:00:00.772589   VMX - Virtual Machine Extensions                        = 0 (1)
+00:00:00.772591   SMX - Safer Mode Extensions                             = 0 (1)
+00:00:00.772592   EST - Enhanced SpeedStep Technology                     = 0 (1)
+00:00:00.772594   TM2 - Terminal Monitor 2                                = 0 (1)
+00:00:00.772595   SSSE3 - Supplemental Streaming SIMD Extensions 3        = 1 (1)
+00:00:00.772596   CNTX-ID - L1 Context ID                                 = 0 (0)
+00:00:00.772598   SDBG - Silicon Debug interface                          = 0 (0)
+00:00:00.772600   FMA - Fused Multiply Add extensions                     = 0 (0)
+00:00:00.772601   CX16 - CMPXCHG16B instruction                           = 1 (1)
+00:00:00.772603   TPRUPDATE - xTPR Update Control                         = 0 (1)
+00:00:00.772604   PDCM - Perf/Debug Capability MSR                        = 0 (1)
+00:00:00.772606   PCID - Process Context Identifiers                      = 0 (1)
+00:00:00.772607   DCA - Direct Cache Access                               = 0 (0)
+00:00:00.772609   SSE4_1 - SSE4_1 support                                 = 1 (1)
+00:00:00.772611   SSE4_2 - SSE4_2 support                                 = 1 (1)
+00:00:00.772612   X2APIC - x2APIC support                                 = 0 (0)
+00:00:00.772614   MOVBE - MOVBE instruction                               = 0 (0)
+00:00:00.772616   POPCNT - POPCNT instruction                             = 1 (1)
+00:00:00.772617   TSCDEADL - Time Stamp Counter Deadline                  = 0 (0)
+00:00:00.772619   AES - AES instructions                                  = 1 (1)
+00:00:00.772620   XSAVE - XSAVE instruction                               = 0 (0)
+00:00:00.772622   OSXSAVE - OSXSAVE instruction                           = 0 (0)
+00:00:00.772623   AVX - AVX support                                       = 0 (0)
+00:00:00.772625   F16C - 16-bit floating point conversion instructions    = 0 (0)
+00:00:00.772626   RDRAND - RDRAND instruction                             = 0 (0)
+00:00:00.772628   HVP - Hypervisor Present (we're a guest)                = 0 (0)
+00:00:00.772629 Structured Extended Feature Flags Enumeration (leaf 7):
+00:00:00.772630   Mnemonic - Description                                  = guest (host)
+00:00:00.772631   FSGSBASE - RDFSBASE/RDGSBASE/WRFSBASE/WRGSBASE instr.   = 0 (0)
+00:00:00.772632   TSCADJUST - Supports MSR_IA32_TSC_ADJUST                = 0 (0)
+00:00:00.772633   BMI1 - Advanced Bit Manipulation extension 1            = 0 (0)
+00:00:00.772635   HLE - Hardware Lock Elision                             = 0 (0)
+00:00:00.772636   AVX2 - Advanced Vector Extensions 2                     = 0 (0)
+00:00:00.772637   SMEP - Supervisor Mode Execution Prevention             = 0 (0)
+00:00:00.772639   BMI2 - Advanced Bit Manipulation extension 2            = 0 (0)
+00:00:00.772640   ERMS - Enhanced REP MOVSB/STOSB instructions            = 0 (0)
+00:00:00.772641   INVPCID - INVPCID instruction                           = 0 (0)
+00:00:00.772643   RTM - Restricted Transactional Memory                   = 0 (0)
+00:00:00.772644   PQM - Platform Quality of Service Monitoring            = 0 (0)
+00:00:00.772645   DEPFPU_CS_DS - Deprecates FPU CS, FPU DS values if set  = 0 (0)
+00:00:00.772646   MPE - Intel Memory Protection Extensions                = 0 (0)
+00:00:00.772648   PQE - Platform Quality of Service Enforcement           = 0 (0)
+00:00:00.772649   AVX512F - AVX512 Foundation instructions                = 0 (0)
+00:00:00.772650   RDSEED - RDSEED instruction                             = 0 (0)
+00:00:00.772652   ADX - ADCX/ADOX instructions                            = 0 (0)
+00:00:00.772653   SMAP - Supervisor Mode Access Prevention                = 0 (0)
+00:00:00.772655   CLFLUSHOPT - CLFLUSHOPT (Cache Line Flush) instruction  = 0 (0)
+00:00:00.772656   INTEL_PT - Intel Processor Trace                        = 0 (0)
+00:00:00.772657   AVX512PF - AVX512 Prefetch instructions                 = 0 (0)
+00:00:00.772659   AVX512ER - AVX512 Exponential & Reciprocal instructions = 0 (0)
+00:00:00.772660   AVX512CD - AVX512 Conflict Detection instructions       = 0 (0)
+00:00:00.772661   SHA - Secure Hash Algorithm extensions                  = 0 (0)
+00:00:00.772662   PREFETCHWT1 - PREFETCHWT1 instruction                   = 0 (0)
+00:00:00.772664   PKU - Protection Key for Usermode pages                 = 0 (0)
+00:00:00.772665   OSPKU - CR4.PKU mirror                                  = 0 (0)
+00:00:00.772668          Raw Hypervisor CPUID Leaves
+00:00:00.772669      Leaf/sub-leaf  eax      ebx      ecx      edx
+00:00:00.772669 Gst: 40000000/0000  40000001 786f4256 786f4256 786f4256
+00:00:00.772672 Hst:                00000001 00000002 00000100 00000000
+00:00:00.772673 Gst: 40000001/0000  656e6f6e 00000000 00000000 00000000
+00:00:00.772675 Hst:                00000001 00000002 00000100 00000000
+00:00:00.772676          Raw Extended CPUID Leaves
+00:00:00.772676      Leaf/sub-leaf  eax      ebx      ecx      edx
+00:00:00.772678 Gst: 80000000/0000  80000008 00000000 00000000 00000000
+00:00:00.772680 Hst:                80000008 00000000 00000000 00000000
+00:00:00.772682 Gst: 80000001/0000  00000000 00000000 00000001 28100800
+00:00:00.772684 Hst:                00000000 00000000 00000001 28100800
+00:00:00.772685 Gst: 80000002/0000  65746e49 2952286c 726f4320 4d542865
+00:00:00.772688 Hst:                65746e49 2952286c 726f4320 4d542865
+00:00:00.772690 Gst: 80000003/0000  35692029 55504320 20202020 4d202020
+00:00:00.772692 Hst:                35692029 55504320 20202020 4d202020
+00:00:00.772694 Gst: 80000004/0000  30323520 20402020 30342e32 007a4847
+00:00:00.772697 Hst:                30323520 20402020 30342e32 007a4847
+00:00:00.772699 Gst: 80000005/0000  00000000 00000000 00000000 00000000
+00:00:00.772701 Hst:                00000000 00000000 00000000 00000000
+00:00:00.772702 Gst: 80000006/0000  00000000 00000000 01006040 00000000
+00:00:00.772704 Hst:                00000000 00000000 01006040 00000000
+00:00:00.772706 Gst: 80000007/0000  00000000 00000000 00000000 00000100
+00:00:00.772707 Hst:                00000000 00000000 00000000 00000100
+00:00:00.772709 Gst: 80000008/0000  00003024 00000000 00000000 00000000
+00:00:00.772711 Hst:                00003024 00000000 00000000 00000000
+00:00:00.772712 Ext Name:                        
+00:00:00.772713 Ext Supports:                    0x80000000-0x80000008
+00:00:00.772714 Family:                          0  	Extended: 0 	Effective: 0
+00:00:00.772715 Model:                           0  	Extended: 0 	Effective: 0
+00:00:00.772715 Stepping:                        0
+00:00:00.772716 Brand ID:                        0x000
+00:00:00.772717 Ext Features
+00:00:00.772717   Mnemonic - Description                                  = guest (host)
+00:00:00.772718   FPU - x87 FPU on Chip                                   = 0 (0)
+00:00:00.772720   VME - Virtual 8086 Mode Enhancements                    = 0 (0)
+00:00:00.772721   DE - Debugging extensions                               = 0 (0)
+00:00:00.772723   PSE - Page Size Extension                               = 0 (0)
+00:00:00.772725   TSC - Time Stamp Counter                                = 0 (0)
+00:00:00.772726   MSR - K86 Model Specific Registers                      = 0 (0)
+00:00:00.772728   PAE - Physical Address Extension                        = 0 (0)
+00:00:00.772729   MCE - Machine Check Exception                           = 0 (0)
+00:00:00.772730   CX8 - CMPXCHG8B instruction                             = 0 (0)
+00:00:00.772732   APIC - APIC On-Chip                                     = 0 (0)
+00:00:00.772734   SEP - SYSCALL/SYSRET                                    = 1 (1)
+00:00:00.772735   MTRR - Memory Type Range Registers                      = 0 (0)
+00:00:00.772737   PGE - PTE Global Bit                                    = 0 (0)
+00:00:00.772738   MCA - Machine Check Architecture                        = 0 (0)
+00:00:00.772740   CMOV - Conditional Move instructions                    = 0 (0)
+00:00:00.772741   PAT - Page Attribute Table                              = 0 (0)
+00:00:00.772743   PSE-36 - 36-bit Page Size Extension                     = 0 (0)
+00:00:00.772744   NX - No-Execute/Execute-Disable                         = 1 (1)
+00:00:00.772746   AXMMX - AMD Extensions to MMX instructions              = 0 (0)
+00:00:00.772747   MMX - Intel MMX Technology                              = 0 (0)
+00:00:00.772748   FXSR - FXSAVE and FXRSTOR Instructions                  = 0 (0)
+00:00:00.772750   FFXSR - AMD fast FXSAVE and FXRSTOR instructions        = 0 (0)
+00:00:00.772751   Page1GB - 1 GB large page                               = 0 (0)
+00:00:00.772753   RDTSCP - RDTSCP instruction                             = 1 (1)
+00:00:00.772754   LM - AMD64 Long Mode                                    = 1 (1)
+00:00:00.772756   3DNOWEXT - AMD Extensions to 3DNow                      = 0 (0)
+00:00:00.772757   3DNOW - AMD 3DNow                                       = 0 (0)
+00:00:00.772759   LahfSahf - LAHF/SAHF support in 64-bit mode             = 1 (1)
+00:00:00.772760   CmpLegacy - Core multi-processing legacy mode           = 0 (0)
+00:00:00.772762   SVM - AMD VM extensions                                 = 0 (0)
+00:00:00.772763   EXTAPIC - AMD Extended APIC registers                   = 0 (0)
+00:00:00.772765   CR8L - AMD LOCK MOV CR0 means MOV CR8                   = 0 (0)
+00:00:00.772766   ABM - AMD Advanced Bit Manipulation                     = 0 (0)
+00:00:00.772768   SSE4A - SSE4A instructions                              = 0 (0)
+00:00:00.772769   MISALIGNSSE - AMD Misaligned SSE mode                   = 0 (0)
+00:00:00.772771   3DNOWPRF - AMD PREFETCH and PREFETCHW instructions      = 0 (0)
+00:00:00.772772   OSVW - AMD OS Visible Workaround                        = 0 (0)
+00:00:00.772773   IBS - Instruct Based Sampling                           = 0 (0)
+00:00:00.772775   XOP - Extended Operation support                        = 0 (0)
+00:00:00.772776   SKINIT - SKINIT, STGI, and DEV support                  = 0 (0)
+00:00:00.772778   WDT - AMD Watchdog Timer support                        = 0 (0)
+00:00:00.772779   LWP - Lightweight Profiling support                     = 0 (0)
+00:00:00.772780   FMA4 - Four operand FMA instruction support             = 0 (0)
+00:00:00.772782   NodeId - NodeId in MSR C001_100C                        = 0 (0)
+00:00:00.772783   TBM - Trailing Bit Manipulation instructions            = 0 (0)
+00:00:00.772784   TOPOEXT - Topology Extensions                           = 0 (0)
+00:00:00.772786 Full Name:                       "Intel(R) Core(TM) i5 CPU       M 520  @ 2.40GHz"
+00:00:00.772787 TLB 2/4M Instr/Uni:              res0     0 entries
+00:00:00.772788 TLB 2/4M Data:                   res0     0 entries
+00:00:00.772789 TLB 4K Instr/Uni:                res0     0 entries
+00:00:00.772789 TLB 4K Data:                     res0     0 entries
+00:00:00.772790 L1 Instr Cache Line Size:        0 bytes
+00:00:00.772791 L1 Instr Cache Lines Per Tag:    0
+00:00:00.772791 L1 Instr Cache Associativity:    res0  
+00:00:00.772792 L1 Instr Cache Size:             0 KB
+00:00:00.772793 L1 Data Cache Line Size:         0 bytes
+00:00:00.772793 L1 Data Cache Lines Per Tag:     0
+00:00:00.772794 L1 Data Cache Associativity:     res0  
+00:00:00.772794 L1 Data Cache Size:              0 KB
+00:00:00.772795 L2 TLB 2/4M Instr/Uni:           off       0 entries
+00:00:00.772796 L2 TLB 2/4M Data:                off       0 entries
+00:00:00.772797 L2 TLB 4K Instr/Uni:             off       0 entries
+00:00:00.772797 L2 TLB 4K Data:                  off       0 entries
+00:00:00.772798 L2 Cache Line Size:              0 bytes
+00:00:00.772799 L2 Cache Lines Per Tag:          0
+00:00:00.772799 L2 Cache Associativity:          off   
+00:00:00.772800 L2 Cache Size:                   0 KB
+00:00:00.772800 APM Features:                    TscInvariant
+00:00:00.772802 Host Invariant-TSC support:      true 
+00:00:00.772803 Physical Address Width:          36 bits
+00:00:00.772804 Virtual Address Width:           48 bits
+00:00:00.772804 Guest Physical Address Width:    0 bits
+00:00:00.772805 Physical Core Count:             1
+00:00:00.772806 
+00:00:00.772807 ******************** End of CPUID dump **********************
+00:00:00.778113 VMEmt: Halt method global1 (5)
+00:00:00.778130 VMEmt: HaltedGlobal1 config: cNsSpinBlockThresholdCfg=2000
+00:00:00.778136 Changing the VM state from 'CREATING' to 'CREATED'
+00:00:00.781320 SharedFolders host service: Adding host mapping
+00:00:00.781336     Host path '/Users/joelelster/vagrant-python-env', map name 'vagrant', writable, automount=false, create_symlinks=true, missing=false
+00:00:00.781414 Changing the VM state from 'CREATED' to 'POWERING_ON'
+00:00:00.781542 Changing the VM state from 'POWERING_ON' to 'RUNNING'
+00:00:00.781555 Console: Machine state changed to 'Running'
+00:00:00.786317 VMMDev: Guest Log: BIOS: VirtualBox 5.0.22
+00:00:00.787875 PIT: mode=2 count=0x10000 (65536) - 18.20 Hz (ch=0)
+00:00:00.803570 Display::handleDisplayResize: uScreenId=0 pvVRAM=0000000000000000 w=720 h=400 bpp=0 cbLine=0x0 flags=0x1
+00:00:00.813127 AHCI#0: Reset the HBA
+00:00:00.813300 AHCI#0: Port 0 reset
+00:00:00.814374 VMMDev: Guest Log: BIOS: AHCI 0-P#0: PCHS=16383/16/63 LCHS=1024/255/63 0x0000000005000000 sectors
+00:00:00.815203 PIT: mode=2 count=0x48d3 (18643) - 64.00 Hz (ch=0)
+00:00:00.831943 Display::handleDisplayResize: uScreenId=0 pvVRAM=000000010f46b000 w=640 h=480 bpp=32 cbLine=0xA00 flags=0x1
+00:00:01.809389 NAT: Old socket recv size: 334KB
+00:00:01.809421 NAT: Old socket send size: 79KB
+00:00:03.294881 PIT: mode=2 count=0x10000 (65536) - 18.20 Hz (ch=0)
+00:00:03.295211 VMMDev: Guest Log: BIOS: Boot : bseqnr=1, bootseq=0002
+00:00:03.312537 Display::handleDisplayResize: uScreenId=0 pvVRAM=0000000000000000 w=720 h=400 bpp=0 cbLine=0x0 flags=0x1
+00:00:03.344221 VMMDev: Guest Log: BIOS: Booting from Hard Disk...
+00:00:04.382355 PIT: mode=2 count=0x12a5 (4773) - 249.98 Hz (ch=0)
+00:00:04.713233 PIT: mode=0 count=0x10000 (65536) - 18.20 Hz (ch=0)
+00:00:05.156501 AHCI#0: Reset the HBA
+00:00:05.170077 AHCI#0: Port 0 reset
+00:00:10.608909 NAT: Link up
+00:00:16.093666 VMMDev: Guest Additions information report: Version 4.3.36 r105129 '4.3.36_Ubuntu'
+00:00:16.093728 VMMDev: Guest Additions information report: Interface = 0x00010004 osType = 0x00053100 (Linux >= 2.6, 64-bit)
+00:00:16.093838 VMMDev: Guest Additions capability report: (0x0 -> 0x0) seamless: no, hostWindowMapping: no, graphics: no
+00:00:16.134196 VMMDev: Guest Log: vboxguest: misc device minor 57, IRQ 20, I/O port d020, MMIO at 00000000f0400000 (size 0x400000)
+00:00:17.602894 NAT: IPv6 not supported
+00:00:17.675485 NAT: DHCP offered IP address 10.0.2.15
+00:00:17.676151 NAT: DHCP offered IP address 10.0.2.15
+00:00:28.895681 VMMDev: Guest Log: VBoxService 4.3.36_Ubuntu r105129 (verbosity: 0) linux.amd64 (Jan 27 2016 11:57:44) release log
+00:00:28.959560 VMMDev: Guest Log: 00:00:00.000179 main     Log opened 2017-09-19T13:55:01.139064000Z
+00:00:28.964754 VMMDev: Guest Log: 00:00:00.070780 main     OS Product: Linux
+00:00:28.964946 VMMDev: Guest Log: 00:00:00.071002 main     OS Release: 3.13.0-91-generic
+00:00:28.965025 VMMDev: Guest Log: 00:00:00.071084 main     OS Version: #138-Ubuntu SMP Fri Jun 24 17:00:34 UTC 2016
+00:00:28.965163 VMMDev: Guest Log: 00:00:00.071221 main     OS Service Pack: #138-Ubuntu SMP Fri Jun 24 17:00:34 UTC 2016
+00:00:28.965244 VMMDev: Guest Log: 00:00:00.071309 main     Executable: /usr/sbin/VBoxService
+00:00:28.965255 VMMDev: Guest Log: 00:00:00.071311 main     Process ID: 1054
+00:00:28.965262 VMMDev: Guest Log: 00:00:00.071312 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:29.014483 VMMDev: Guest Log: 00:00:00.121337 main     4.3.36_Ubuntu r105129 started. Verbose level = 0
+01:45:37.016065 Pausing VM execution, reason 'host suspend'
+01:45:37.060071 Changing the VM state from 'RUNNING' to 'SUSPENDING'
+01:45:37.401111 PDMR3Suspend: 340 994 332 ns run time
+01:45:37.401142 Changing the VM state from 'SUSPENDING' to 'SUSPENDED'
+01:45:37.401158 Console: Machine state changed to 'Paused'
+01:47:27.797137 NAT: DNS servers changed, triggering reconnect
+01:47:27.797246 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VERR_FILE_NOT_FOUND old domain:(null) new domain:<NULL>
+01:47:27.821637 Resuming VM execution, reason 'host resume'
+01:47:27.821715 Changing the VM state from 'SUSPENDED' to 'RESUMING'
+01:47:27.828141 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VERR_FILE_NOT_FOUND old domain:(null) new domain:<NULL>
+01:47:27.828359 Changing the VM state from 'RESUMING' to 'RUNNING'
+01:47:27.828384 Console: Machine state changed to 'Running'
+01:50:49.778397 NAT: DNS servers changed, triggering reconnect
+01:50:49.778464 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VERR_FILE_NOT_FOUND old domain:(null) new domain:<NULL>
+01:50:49.871525 NAT: DNS servers changed, triggering reconnect
+01:50:49.871664 NAT: resolv.conf: nameserver 75.75.75.75
+01:50:49.871686 NAT: resolv.conf: nameserver 75.75.76.76
+01:50:49.871716 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VINF_SUCCESS old domain:(null) new domain:<NULL>
+01:50:49.871893 NAT: resolv.conf: nameserver 75.75.75.75
+01:50:49.871910 NAT: resolv.conf: nameserver 75.75.76.76
+01:50:49.871931 NAT: DNS#0: 75.75.75.75
+01:50:49.871942 NAT: DNS#1: 75.75.76.76
+03:38:31.724505 Pausing VM execution, reason 'host suspend'
+03:38:32.061142 Changing the VM state from 'RUNNING' to 'SUSPENDING'
+03:38:34.487891 PDMR3Suspend: Driver 'VD'/0 on LUN#0 of device 'ahci'/0 took 2 426 387 867 ns to suspend
+03:38:34.530722 PDMR3Suspend: 2 469 529 297 ns run time
+03:38:34.530758 Changing the VM state from 'SUSPENDING' to 'SUSPENDED'
+03:38:34.530781 Console: Machine state changed to 'Paused'
+03:40:12.682649 NAT: DNS servers changed, triggering reconnect
+03:40:12.778227 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VERR_FILE_NOT_FOUND old domain:(null) new domain:<NULL>
+03:40:15.219697 Resuming VM execution, reason 'host resume'
+03:40:15.219786 Changing the VM state from 'SUSPENDED' to 'RESUMING'
+03:40:16.685019 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VERR_FILE_NOT_FOUND old domain:(null) new domain:<NULL>
+03:40:16.685335 Changing the VM state from 'RESUMING' to 'RUNNING'
+03:40:16.685358 Console: Machine state changed to 'Running'
+03:40:56.730262 NAT: DNS servers changed, triggering reconnect
+03:40:56.734998 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VERR_FILE_NOT_FOUND old domain:(null) new domain:<NULL>
+03:40:56.809428 NAT: DNS servers changed, triggering reconnect
+03:40:56.937604 NAT: resolv.conf: nameserver 172.20.10.1
+03:40:56.937669 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VINF_SUCCESS old domain:(null) new domain:<NULL>
+03:40:56.937832 NAT: resolv.conf: nameserver 172.20.10.1
+03:40:56.937867 NAT: DNS#0: 172.20.10.1
+03:41:27.182555 NAT: DNS servers changed, triggering reconnect
+03:41:27.220640 NAT: resolv.conf: nameserver 172.20.10.1
+03:41:27.220663 NAT: resolv.conf: nameserver fe80::814:570d:619:c917
+03:41:27.220695 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VINF_SUCCESS old domain:(null) new domain:<NULL>
+03:41:27.220803 NAT: resolv.conf: nameserver 172.20.10.1
+03:41:27.220819 NAT: resolv.conf: nameserver fe80::814:570d:619:c917
+03:41:27.220843 NAT: DNS#0: 172.20.10.1
+03:49:43.157952 Pausing VM execution, reason 'host suspend'
+03:49:43.206600 Changing the VM state from 'RUNNING' to 'SUSPENDING'
+03:49:43.877332 PDMR3Suspend: 670 697 735 ns run time
+03:49:43.877370 Changing the VM state from 'SUSPENDING' to 'SUSPENDED'
+03:49:43.877400 Console: Machine state changed to 'Paused'
+03:51:29.189421 NAT: DNS servers changed, triggering reconnect
+03:51:29.189523 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VERR_FILE_NOT_FOUND old domain:(null) new domain:<NULL>
+03:51:29.216301 Resuming VM execution, reason 'host resume'
+03:51:29.216367 Changing the VM state from 'SUSPENDED' to 'RESUMING'
+03:51:29.223275 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VERR_FILE_NOT_FOUND old domain:(null) new domain:<NULL>
+03:51:29.223571 Changing the VM state from 'RESUMING' to 'RUNNING'
+03:51:29.223593 Console: Machine state changed to 'Running'
+03:51:50.528478 NAT: DNS servers changed, triggering reconnect
+03:51:50.536058 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VERR_FILE_NOT_FOUND old domain:(null) new domain:<NULL>
+03:51:50.545545 NAT: DNS servers changed, triggering reconnect
+03:51:50.545682 NAT: resolv.conf: nameserver 208.59.247.45
+03:51:50.545701 NAT: resolv.conf: nameserver 208.59.247.46
+03:51:50.545712 NAT: resolv.conf: nameserver 192.168.1.1
+03:51:50.545734 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VINF_SUCCESS old domain:(null) new domain:cable.rcn.com
+03:51:50.545879 NAT: resolv.conf: nameserver 208.59.247.45
+03:51:50.545894 NAT: resolv.conf: nameserver 208.59.247.46
+03:51:50.545904 NAT: resolv.conf: nameserver 192.168.1.1
+03:51:50.545924 NAT: Adding domain name cable.rcn.com
+03:51:50.545932 NAT: DNS#0: 208.59.247.45
+03:51:50.545960 NAT: DNS#1: 208.59.247.46
+03:51:50.545968 NAT: DNS#2: 192.168.1.1
+03:52:04.524508 NAT: DNS servers changed, triggering reconnect
+03:52:05.123187 NAT: resolv.conf: nameserver 208.59.247.45
+03:52:05.123222 NAT: resolv.conf: nameserver 208.59.247.46
+03:52:05.123232 NAT: resolv.conf: nameserver 192.168.1.1
+03:52:05.123274 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VINF_SUCCESS old domain:cable.rcn.com new domain:cable.rcn.com
+03:52:05.124433 NAT: resolv.conf: nameserver 208.59.247.45
+03:52:05.124465 NAT: resolv.conf: nameserver 208.59.247.46
+03:52:05.124476 NAT: resolv.conf: nameserver 192.168.1.1
+03:52:05.124503 NAT: Adding domain name cable.rcn.com
+03:52:05.124511 NAT: DNS#0: 208.59.247.45
+03:52:05.124518 NAT: DNS#1: 208.59.247.46
+03:52:05.124524 NAT: DNS#2: 192.168.1.1
+04:31:33.604425 Pausing VM execution, reason 'host suspend'
+04:31:33.631179 Changing the VM state from 'RUNNING' to 'SUSPENDING'
+04:31:33.722627 PDMR3Suspend: 91 407 330 ns run time
+04:31:33.722673 Changing the VM state from 'SUSPENDING' to 'SUSPENDED'
+04:31:33.722694 Console: Machine state changed to 'Paused'
+04:32:42.396735 NAT: DNS servers changed, triggering reconnect
+04:32:42.413385 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VERR_FILE_NOT_FOUND old domain:cable.rcn.com new domain:<NULL>
+04:32:42.499776 NAT: DNS servers changed, triggering reconnect
+04:32:42.499851 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VERR_FILE_NOT_FOUND old domain:cable.rcn.com new domain:<NULL>
+04:32:42.606512 NAT: DNS servers changed, triggering reconnect
+04:32:42.606682 NAT: resolv.conf: nameserver 208.59.247.45
+04:32:42.606703 NAT: resolv.conf: nameserver 208.59.247.46
+04:32:42.606713 NAT: resolv.conf: nameserver 192.168.1.1
+04:32:42.606740 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VINF_SUCCESS old domain:cable.rcn.com new domain:cable.rcn.com
+04:32:43.512518 Resuming VM execution, reason 'host resume'
+04:32:43.512609 Changing the VM state from 'SUSPENDED' to 'RESUMING'
+04:32:43.808201 NAT: resolv.conf: nameserver 208.59.247.45
+04:32:43.808233 NAT: resolv.conf: nameserver 208.59.247.46
+04:32:43.808244 NAT: resolv.conf: nameserver 192.168.1.1
+04:32:43.808265 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VINF_SUCCESS old domain:cable.rcn.com new domain:cable.rcn.com
+04:32:43.808440 Changing the VM state from 'RESUMING' to 'RUNNING'
+04:32:43.808467 Console: Machine state changed to 'Running'
+04:32:43.808577 NAT: resolv.conf: nameserver 208.59.247.45
+04:32:43.808597 NAT: resolv.conf: nameserver 208.59.247.46
+04:32:43.808607 NAT: resolv.conf: nameserver 192.168.1.1
+04:32:43.808628 NAT: Adding domain name cable.rcn.com
+04:32:43.808635 NAT: DNS#0: 208.59.247.45
+04:32:43.808641 NAT: DNS#1: 208.59.247.46
+04:32:43.808647 NAT: DNS#2: 192.168.1.1
+04:32:43.808696 NAT: resolv.conf: nameserver 208.59.247.45
+04:32:43.808709 NAT: resolv.conf: nameserver 208.59.247.46
+04:32:43.808717 NAT: resolv.conf: nameserver 192.168.1.1
+04:32:43.808736 NAT: Adding domain name cable.rcn.com
+04:32:43.808743 NAT: DNS#0: 208.59.247.45
+04:32:43.808749 NAT: DNS#1: 208.59.247.46
+04:32:43.808794 NAT: DNS#2: 192.168.1.1
+04:32:43.808867 NAT: resolv.conf: nameserver 208.59.247.45
+04:32:43.808882 NAT: resolv.conf: nameserver 208.59.247.46
+04:32:43.808891 NAT: resolv.conf: nameserver 192.168.1.1
+04:32:43.808913 NAT: Adding domain name cable.rcn.com
+04:32:43.808921 NAT: DNS#0: 208.59.247.45
+04:32:43.808928 NAT: DNS#1: 208.59.247.46
+04:32:43.808934 NAT: DNS#2: 192.168.1.1
+04:32:43.808984 NAT: resolv.conf: nameserver 208.59.247.45
+04:32:43.809018 NAT: resolv.conf: nameserver 208.59.247.46
+04:32:43.809032 NAT: resolv.conf: nameserver 192.168.1.1
+04:32:43.809051 NAT: Adding domain name cable.rcn.com
+04:32:43.809058 NAT: DNS#0: 208.59.247.45
+04:32:43.809065 NAT: DNS#1: 208.59.247.46
+04:32:43.809071 NAT: DNS#2: 192.168.1.1
+04:32:47.348337 NAT: DNS servers changed, triggering reconnect
+04:32:47.348462 NAT: resolv.conf: nameserver 208.59.247.45
+04:32:47.348481 NAT: resolv.conf: nameserver 208.59.247.46
+04:32:47.852554 NAT: resolv.conf: nameserver 192.168.1.1
+04:32:47.852612 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VINF_SUCCESS old domain:cable.rcn.com new domain:cable.rcn.com
+04:32:47.853227 NAT: resolv.conf: nameserver 208.59.247.45
+04:32:47.853248 NAT: resolv.conf: nameserver 208.59.247.46
+04:32:47.853257 NAT: resolv.conf: nameserver 192.168.1.1
+04:32:47.853288 NAT: Adding domain name cable.rcn.com
+04:32:47.853297 NAT: DNS#0: 208.59.247.45
+04:32:47.853304 NAT: DNS#1: 208.59.247.46
+04:32:47.853311 NAT: DNS#2: 192.168.1.1
+04:44:36.378658 Pausing VM execution, reason 'host suspend'
+04:44:36.435115 Changing the VM state from 'RUNNING' to 'SUSPENDING'
+04:44:36.543437 PDMR3Suspend: 108 282 705 ns run time
+04:44:36.543470 Changing the VM state from 'SUSPENDING' to 'SUSPENDED'
+04:44:36.543488 Console: Machine state changed to 'Paused'
+04:45:50.533052 NAT: DNS servers changed, triggering reconnect
+04:45:50.575513 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VERR_FILE_NOT_FOUND old domain:cable.rcn.com new domain:<NULL>
+04:45:52.475506 NAT: DNS servers changed, triggering reconnect
+04:45:52.475575 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VERR_FILE_NOT_FOUND old domain:cable.rcn.com new domain:<NULL>
+04:45:52.673932 NAT: DNS servers changed, triggering reconnect
+04:45:52.743044 NAT: resolv.conf: nameserver 208.59.247.45
+04:45:52.743081 NAT: resolv.conf: nameserver 208.59.247.46
+04:45:52.743098 NAT: resolv.conf: nameserver 192.168.1.1
+04:45:52.743155 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VINF_SUCCESS old domain:cable.rcn.com new domain:cable.rcn.com
+04:45:57.362169 NAT: DNS servers changed, triggering reconnect
+04:45:57.410684 NAT: resolv.conf: nameserver 208.59.247.45
+04:45:57.410714 NAT: resolv.conf: nameserver 208.59.247.46
+04:45:57.410725 NAT: resolv.conf: nameserver 192.168.1.1
+04:45:57.410754 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VINF_SUCCESS old domain:cable.rcn.com new domain:cable.rcn.com
+04:46:51.528662 NAT: DNS servers changed, triggering reconnect
+04:46:51.755033 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VERR_FILE_NOT_FOUND old domain:cable.rcn.com new domain:<NULL>
+04:46:58.129909 Resuming VM execution, reason 'host resume'
+04:46:58.130002 Changing the VM state from 'SUSPENDED' to 'RESUMING'
+04:46:58.146200 NAT: DNS servers changed, triggering reconnect
+04:46:58.146280 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VERR_FILE_NOT_FOUND old domain:cable.rcn.com new domain:<NULL>
+04:46:59.142508 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VERR_FILE_NOT_FOUND old domain:cable.rcn.com new domain:<NULL>
+04:46:59.143136 Changing the VM state from 'RESUMING' to 'RUNNING'
+04:46:59.143159 Console: Machine state changed to 'Running'
+04:47:01.157721 NAT: DNS servers changed, triggering reconnect
+04:47:01.377163 NAT: resolv.conf: nameserver 208.59.247.45
+04:47:01.377207 NAT: resolv.conf: nameserver 208.59.247.46
+04:47:01.377223 NAT: resolv.conf: nameserver 192.168.1.1
+04:47:01.377256 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VINF_SUCCESS old domain:(null) new domain:cable.rcn.com
+04:47:01.377482 NAT: resolv.conf: nameserver 208.59.247.45
+04:47:01.377541 NAT: resolv.conf: nameserver 208.59.247.46
+04:47:01.377565 NAT: resolv.conf: nameserver 192.168.1.1
+04:47:01.377599 NAT: Adding domain name cable.rcn.com
+04:47:01.377609 NAT: DNS#0: 208.59.247.45
+04:47:01.377663 NAT: DNS#1: 208.59.247.46
+04:47:01.377674 NAT: DNS#2: 192.168.1.1
+04:47:02.717757 NAT: DNS servers changed, triggering reconnect
+04:47:02.717885 NAT: resolv.conf: nameserver 208.59.247.45
+04:47:02.717905 NAT: resolv.conf: nameserver 208.59.247.46
+04:47:02.717916 NAT: resolv.conf: nameserver 192.168.1.1
+04:47:02.717943 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VINF_SUCCESS old domain:cable.rcn.com new domain:cable.rcn.com
+04:47:03.648133 NAT: resolv.conf: nameserver 208.59.247.45
+04:47:03.648172 NAT: resolv.conf: nameserver 208.59.247.46
+04:47:03.648183 NAT: resolv.conf: nameserver 192.168.1.1
+04:47:03.648224 NAT: Adding domain name cable.rcn.com
+04:47:03.648232 NAT: DNS#0: 208.59.247.45
+04:47:03.648245 NAT: DNS#1: 208.59.247.46
+04:47:03.648252 NAT: DNS#2: 192.168.1.1
+04:47:15.879723 Pausing VM execution, reason 'host suspend'
+04:47:16.281428 Changing the VM state from 'RUNNING' to 'SUSPENDING'
+04:47:16.549545 PDMR3Suspend: 268 080 546 ns run time
+04:47:16.549570 Changing the VM state from 'SUSPENDING' to 'SUSPENDED'
+04:47:16.549584 Console: Machine state changed to 'Paused'
+04:49:27.861510 NAT: DNS servers changed, triggering reconnect
+04:49:28.608830 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VERR_FILE_NOT_FOUND old domain:cable.rcn.com new domain:<NULL>
+04:49:33.292982 Resuming VM execution, reason 'host resume'
+04:49:33.293075 Changing the VM state from 'SUSPENDED' to 'RESUMING'
+04:49:33.455750 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VERR_FILE_NOT_FOUND old domain:cable.rcn.com new domain:<NULL>
+04:49:33.456085 Changing the VM state from 'RESUMING' to 'RUNNING'
+04:49:33.456106 Console: Machine state changed to 'Running'
+04:49:43.222783 NAT: DNS servers changed, triggering reconnect
+04:49:43.237726 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VERR_FILE_NOT_FOUND old domain:(null) new domain:<NULL>
+04:50:03.714682 NAT: DNS servers changed, triggering reconnect
+04:50:03.772328 NAT: resolv.conf: nameserver 8.8.8.8
+04:50:03.772461 NAT: resolv.conf: nameserver 8.8.4.4
+04:50:03.772493 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VINF_SUCCESS old domain:(null) new domain:<NULL>
+04:50:03.772626 NAT: resolv.conf: nameserver 8.8.8.8
+04:50:03.772642 NAT: resolv.conf: nameserver 8.8.4.4
+04:50:03.772668 NAT: DNS#0: 8.8.8.8
+04:50:03.772677 NAT: DNS#1: 8.8.4.4
+05:04:55.444083 Pausing VM execution, reason 'host suspend'
+05:04:55.565389 Changing the VM state from 'RUNNING' to 'SUSPENDING'
+05:04:55.717356 PDMR3Suspend: 151 924 519 ns run time
+05:04:55.717391 Changing the VM state from 'SUSPENDING' to 'SUSPENDED'
+05:04:55.717412 Console: Machine state changed to 'Paused'
+05:06:22.440102 Resuming VM execution, reason 'host resume'
+05:06:22.440195 Changing the VM state from 'SUSPENDED' to 'RESUMING'
+05:06:22.451934 NAT: DNS servers changed, triggering reconnect
+05:06:22.452047 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VERR_FILE_NOT_FOUND old domain:(null) new domain:<NULL>
+05:06:22.452992 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VERR_FILE_NOT_FOUND old domain:(null) new domain:<NULL>
+05:06:22.453287 Changing the VM state from 'RESUMING' to 'RUNNING'
+05:06:22.453309 Console: Machine state changed to 'Running'
+05:06:25.520538 NAT: DNS servers changed, triggering reconnect
+05:06:25.520593 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VERR_FILE_NOT_FOUND old domain:(null) new domain:<NULL>
+05:06:25.607678 NAT: DNS servers changed, triggering reconnect
+05:06:25.607812 NAT: resolv.conf: nameserver 208.59.247.45
+05:06:25.607832 NAT: resolv.conf: nameserver 208.59.247.46
+05:06:25.607842 NAT: resolv.conf: nameserver 192.168.1.1
+05:06:25.607866 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VINF_SUCCESS old domain:(null) new domain:cable.rcn.com
+05:06:25.608014 NAT: resolv.conf: nameserver 208.59.247.45
+05:06:25.608030 NAT: resolv.conf: nameserver 208.59.247.46
+05:06:25.608040 NAT: resolv.conf: nameserver 192.168.1.1
+05:06:25.608060 NAT: Adding domain name cable.rcn.com
+05:06:25.608068 NAT: DNS#0: 208.59.247.45
+05:06:25.608076 NAT: DNS#1: 208.59.247.46
+05:06:25.608082 NAT: DNS#2: 192.168.1.1
+05:06:34.046006 NAT: DNS servers changed, triggering reconnect
+05:06:34.046129 NAT: resolv.conf: nameserver 208.59.247.45
+05:06:34.046147 NAT: resolv.conf: nameserver 208.59.247.46
+05:06:34.046156 NAT: resolv.conf: nameserver 192.168.1.1
+05:06:34.046198 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VINF_SUCCESS old domain:cable.rcn.com new domain:cable.rcn.com
+05:06:34.046349 NAT: resolv.conf: nameserver 208.59.247.45
+05:06:34.046363 NAT: resolv.conf: nameserver 208.59.247.46
+05:06:34.046372 NAT: resolv.conf: nameserver 192.168.1.1
+05:06:34.046390 NAT: Adding domain name cable.rcn.com
+05:06:34.046396 NAT: DNS#0: 208.59.247.45
+05:06:34.046403 NAT: DNS#1: 208.59.247.46
+05:06:34.046409 NAT: DNS#2: 192.168.1.1
+07:33:19.226913 Pausing VM execution, reason 'host suspend'
+07:33:19.271407 Changing the VM state from 'RUNNING' to 'SUSPENDING'
+07:33:19.889881 PDMR3Suspend: 618 429 539 ns run time
+07:33:19.889911 Changing the VM state from 'SUSPENDING' to 'SUSPENDED'
+07:33:19.889930 Console: Machine state changed to 'Paused'
+07:34:44.885022 Resuming VM execution, reason 'host resume'
+07:34:44.885114 Changing the VM state from 'SUSPENDED' to 'RESUMING'
+07:34:45.084327 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VERR_FILE_NOT_FOUND old domain:cable.rcn.com new domain:<NULL>
+07:34:45.084633 Changing the VM state from 'RESUMING' to 'RUNNING'
+07:34:45.084672 Console: Machine state changed to 'Running'
+07:34:45.091055 NAT: DNS servers changed, triggering reconnect
+07:34:45.091135 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VERR_FILE_NOT_FOUND old domain:(null) new domain:<NULL>
+07:34:45.249798 NAT: DNS servers changed, triggering reconnect
+07:34:45.249875 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VERR_FILE_NOT_FOUND old domain:(null) new domain:<NULL>
+07:34:45.421169 NAT: DNS servers changed, triggering reconnect
+07:34:45.441306 NAT: resolv.conf: nameserver 208.59.247.45
+07:34:45.441344 NAT: resolv.conf: nameserver 208.59.247.46
+07:34:45.441355 NAT: resolv.conf: nameserver 192.168.1.1
+07:34:45.441394 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VINF_SUCCESS old domain:(null) new domain:cable.rcn.com
+07:34:45.442100 NAT: resolv.conf: nameserver 208.59.247.45
+07:34:45.442125 NAT: resolv.conf: nameserver 208.59.247.46
+07:34:45.442135 NAT: resolv.conf: nameserver 192.168.1.1
+07:34:45.448048 NAT: Adding domain name cable.rcn.com
+07:34:45.448056 NAT: DNS#0: 208.59.247.45
+07:34:45.448064 NAT: DNS#1: 208.59.247.46
+07:34:45.448070 NAT: DNS#2: 192.168.1.1
+07:34:49.366793 NAT: DNS servers changed, triggering reconnect
+07:34:49.366902 NAT: resolv.conf: nameserver 208.59.247.45
+07:34:49.366924 NAT: resolv.conf: nameserver 208.59.247.46
+07:34:49.366934 NAT: resolv.conf: nameserver 192.168.1.1
+07:34:49.366961 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VINF_SUCCESS old domain:cable.rcn.com new domain:cable.rcn.com
+07:34:49.367076 NAT: resolv.conf: nameserver 208.59.247.45
+07:34:49.367092 NAT: resolv.conf: nameserver 208.59.247.46
+07:34:49.367103 NAT: resolv.conf: nameserver 192.168.1.1
+07:34:49.367125 NAT: Adding domain name cable.rcn.com
+07:34:49.367133 NAT: DNS#0: 208.59.247.45
+07:34:49.367141 NAT: DNS#1: 208.59.247.46
+07:34:49.367147 NAT: DNS#2: 192.168.1.1
+08:16:11.625961 Pausing VM execution, reason 'host suspend'
+08:16:11.684799 Changing the VM state from 'RUNNING' to 'SUSPENDING'
+08:16:12.161112 PDMR3Suspend: 476 276 580 ns run time
+08:16:12.161139 Changing the VM state from 'SUSPENDING' to 'SUSPENDED'
+08:16:12.161156 Console: Machine state changed to 'Paused'
+08:17:58.924577 Resuming VM execution, reason 'host resume'
+08:17:59.183703 Changing the VM state from 'SUSPENDED' to 'RESUMING'
+08:18:01.738429 NAT: DNS servers changed, triggering reconnect
+08:18:03.341342 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VERR_FILE_NOT_FOUND old domain:cable.rcn.com new domain:<NULL>
+08:18:07.538416 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VERR_FILE_NOT_FOUND old domain:cable.rcn.com new domain:<NULL>
+08:18:07.538805 Changing the VM state from 'RESUMING' to 'RUNNING'
+08:18:07.538835 Console: Machine state changed to 'Running'
+08:18:40.940174 NAT: DNS servers changed, triggering reconnect
+08:18:42.306744 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VERR_FILE_NOT_FOUND old domain:(null) new domain:<NULL>
+08:18:43.950156 NAT: DNS servers changed, triggering reconnect
+08:18:45.092663 NAT: resolv.conf: nameserver 208.59.247.45
+08:18:45.092697 NAT: resolv.conf: nameserver 208.59.247.46
+08:18:45.092707 NAT: resolv.conf: nameserver 192.168.1.1
+08:18:45.092733 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VINF_SUCCESS old domain:(null) new domain:cable.rcn.com
+08:18:45.092970 NAT: resolv.conf: nameserver 208.59.247.45
+08:18:45.092989 NAT: resolv.conf: nameserver 208.59.247.46
+08:18:45.093000 NAT: resolv.conf: nameserver 192.168.1.1
+08:18:45.093020 NAT: Adding domain name cable.rcn.com
+08:18:45.093026 NAT: DNS#0: 208.59.247.45
+08:18:45.093033 NAT: DNS#1: 208.59.247.46
+08:18:45.093039 NAT: DNS#2: 192.168.1.1
+08:24:33.069523 Pausing VM execution, reason 'host suspend'
+08:24:33.553432 Changing the VM state from 'RUNNING' to 'SUSPENDING'
+08:24:37.108362 PDMR3Suspend: Driver 'VD'/0 on LUN#0 of device 'ahci'/0 took 3 554 729 032 ns to suspend
+08:24:37.174500 PDMR3Suspend: 3 621 035 724 ns run time
+08:24:37.174530 Changing the VM state from 'SUSPENDING' to 'SUSPENDED'
+08:24:37.174545 Console: Machine state changed to 'Paused'
+08:24:37.210795 Resuming VM execution, reason 'host resume'
+08:24:37.210888 Changing the VM state from 'SUSPENDED' to 'RESUMING'
+08:24:37.788178 NAT: resolv.conf: nameserver 208.59.247.45
+08:24:37.788206 NAT: resolv.conf: nameserver 208.59.247.46
+08:24:37.788213 NAT: resolv.conf: nameserver 192.168.1.1
+08:24:37.788236 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VINF_SUCCESS old domain:cable.rcn.com new domain:cable.rcn.com
+08:24:37.788413 Changing the VM state from 'RESUMING' to 'RUNNING'
+08:24:37.788439 Console: Machine state changed to 'Running'
+08:24:37.788554 NAT: resolv.conf: nameserver 208.59.247.45
+08:24:37.788578 NAT: resolv.conf: nameserver 208.59.247.46
+08:24:37.788594 NAT: resolv.conf: nameserver 192.168.1.1
+08:24:37.788615 NAT: Adding domain name cable.rcn.com
+08:24:37.788621 NAT: DNS#0: 208.59.247.45
+08:24:37.788627 NAT: DNS#1: 208.59.247.46
+08:24:37.788634 NAT: DNS#2: 192.168.1.1
+09:50:48.338213 Pausing VM execution, reason 'host suspend'
+09:50:48.379013 Changing the VM state from 'RUNNING' to 'SUSPENDING'
+09:50:48.606212 PDMR3Suspend: 227 165 431 ns run time
+09:50:48.606244 Changing the VM state from 'SUSPENDING' to 'SUSPENDED'
+09:50:48.606264 Console: Machine state changed to 'Paused'
+09:51:58.073829 NAT: DNS servers changed, triggering reconnect
+09:51:58.073955 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VERR_FILE_NOT_FOUND old domain:cable.rcn.com new domain:<NULL>
+09:51:58.127469 NAT: DNS servers changed, triggering reconnect
+09:51:58.127538 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VERR_FILE_NOT_FOUND old domain:cable.rcn.com new domain:<NULL>
+09:51:58.152793 NAT: DNS servers changed, triggering reconnect
+09:51:58.152980 NAT: resolv.conf: nameserver 208.59.247.45
+09:51:58.153000 NAT: resolv.conf: nameserver 208.59.247.46
+09:51:58.153010 NAT: resolv.conf: nameserver 192.168.1.1
+09:51:58.153038 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VINF_SUCCESS old domain:cable.rcn.com new domain:cable.rcn.com
+09:51:58.850876 Resuming VM execution, reason 'host resume'
+09:51:58.850963 Changing the VM state from 'SUSPENDED' to 'RESUMING'
+09:51:58.877395 NAT: resolv.conf: nameserver 208.59.247.45
+09:51:58.877423 NAT: resolv.conf: nameserver 208.59.247.46
+09:51:58.877432 NAT: resolv.conf: nameserver 192.168.1.1
+09:51:58.877457 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VINF_SUCCESS old domain:cable.rcn.com new domain:cable.rcn.com
+09:51:58.877614 Changing the VM state from 'RESUMING' to 'RUNNING'
+09:51:58.877634 Console: Machine state changed to 'Running'
+09:51:58.877736 NAT: resolv.conf: nameserver 208.59.247.45
+09:51:58.877749 NAT: resolv.conf: nameserver 208.59.247.46
+09:51:58.877767 NAT: resolv.conf: nameserver 192.168.1.1
+09:51:58.877791 NAT: Adding domain name cable.rcn.com
+09:51:58.877796 NAT: DNS#0: 208.59.247.45
+09:51:58.877801 NAT: DNS#1: 208.59.247.46
+09:51:58.877808 NAT: DNS#2: 192.168.1.1
+09:51:58.877874 NAT: resolv.conf: nameserver 208.59.247.45
+09:51:58.877890 NAT: resolv.conf: nameserver 208.59.247.46
+09:51:58.877900 NAT: resolv.conf: nameserver 192.168.1.1
+09:51:58.877921 NAT: Adding domain name cable.rcn.com
+09:51:58.877928 NAT: DNS#0: 208.59.247.45
+09:51:58.877935 NAT: DNS#1: 208.59.247.46
+09:51:58.877941 NAT: DNS#2: 192.168.1.1
+09:51:58.878011 NAT: resolv.conf: nameserver 208.59.247.45
+09:51:58.878026 NAT: resolv.conf: nameserver 208.59.247.46
+09:51:58.878035 NAT: resolv.conf: nameserver 192.168.1.1
+09:51:58.878053 NAT: Adding domain name cable.rcn.com
+09:51:58.878059 NAT: DNS#0: 208.59.247.45
+09:51:58.878066 NAT: DNS#1: 208.59.247.46
+09:51:58.878072 NAT: DNS#2: 192.168.1.1
+09:51:58.878126 NAT: resolv.conf: nameserver 208.59.247.45
+09:51:58.878139 NAT: resolv.conf: nameserver 208.59.247.46
+09:51:58.878148 NAT: resolv.conf: nameserver 192.168.1.1
+09:51:58.878167 NAT: Adding domain name cable.rcn.com
+09:51:58.878177 NAT: DNS#0: 208.59.247.45
+09:51:58.878193 NAT: DNS#1: 208.59.247.46
+09:51:58.878206 NAT: DNS#2: 192.168.1.1
+09:52:02.244299 NAT: DNS servers changed, triggering reconnect
+09:52:02.244403 NAT: resolv.conf: nameserver 208.59.247.45
+09:52:02.244421 NAT: resolv.conf: nameserver 208.59.247.46
+09:52:02.244431 NAT: resolv.conf: nameserver 192.168.1.1
+09:52:02.244459 slirp_host_network_configuration_change_strategy_selector: NAT: rcp_parse:VINF_SUCCESS old domain:cable.rcn.com new domain:cable.rcn.com
+09:52:02.244604 NAT: resolv.conf: nameserver 208.59.247.45
+09:52:02.244619 NAT: resolv.conf: nameserver 208.59.247.46
+09:52:02.244628 NAT: resolv.conf: nameserver 192.168.1.1
+09:52:02.244649 NAT: Adding domain name cable.rcn.com
+09:52:02.244656 NAT: DNS#0: 208.59.247.45
+09:52:02.244663 NAT: DNS#1: 208.59.247.46
+09:52:02.244669 NAT: DNS#2: 192.168.1.1

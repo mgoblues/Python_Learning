@@ -1,0 +1,19 @@
+import sys                                        
+                                                  
+def this_fails():                                 
+    x = 1/0                                       
+                                                  
+def try_but_get_back_up():                        
+    try:                                          
+        this_fails()                              
+    except ZeroDivisionError as err:              
+        print("Handling run-time error: ", err)   
+    return 'got back up'                          
+                                                  
+                                                  
+try:                                              
+    result = try_but_get_back_up()                
+except:                                           
+    print("function had a runtime error: ", err)  
+                                                  
+print(result)                                     

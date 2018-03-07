@@ -1,0 +1,23 @@
+total 0
+drwx------   2 root       wheel        68 Aug 25  2013 agentx
+drwxr-xr-x   8 daemon     wheel       272 May 22  2014 at
+drwx------  39 root       wheel      1326 May 30 12:29 audit
+drwx------   2 root       wheel        68 Aug 24  2013 backups
+drwxr-xr-x  64 root       wheel      2176 Jun 27 20:47 db
+drwxr-xr-x   2 root       sys          68 Aug 24  2013 empty
+drwxr-xr-x   7 root       wheel       238 Oct 14  2014 folders
+drwxr-x---   2 _jabber    _jabber      68 Aug 24  2013 jabberd
+drwxr-xr-x   3 root       wheel       102 Aug 25  2013 lib
+drwxr-xr-x  69 root       wheel      2346 Jun 29 00:00 log
+drwxrwxr-x   2 root       mail         68 Aug 24  2013 mail
+drwxr-xr-x   3 root       wheel       102 May 22  2014 msgs
+drwxr-xr-x   2 root       wheel        68 Aug 24  2013 netboot
+drwxr-xr-x   2 _networkd  _networkd    68 Aug 24  2013 networkd
+drwxr-x---   5 root       wheel       170 Oct 13  2014 root
+drwxr-xr-x   4 root       wheel       136 Aug 24  2013 rpc
+drwxrwxr-x  25 root       daemon      850 Jun 29 14:34 run
+drwxr-xr-x   2 daemon     wheel        68 Aug 24  2013 rwho
+drwxr-xr-x   7 root       wheel       238 May 22  2014 spool
+drwxrwxrwt  37 root       wheel      1258 Jun 27 18:09 tmp
+drwxr-xr-x   5 root       wheel       170 Jun 24 07:51 vm
+drwxr-xr-x   4 root       wheel       136 May 22  2014 yp
