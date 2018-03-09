@@ -1,0 +1,27 @@
+# Trying to have basic data processing over a tuple
+
+
+class MyRootModel(my_attr):
+    my_attrs = {'an_attr': int, 'another_attr': str}
+
+    def __init__(self, **kwargs):
+        for i in self.my_attrs:
+            print('These are my attrs: {}'.format(i))
+            setattr(self, i, kwargs.get(i))
+            # set_attr when attribute is defined as string
+
+
+MyRootModel()
+
+
+
+        # for each attr in my_attrs, set
+        # self.attr from kwargs
+        # can iterate over which
+        # kwargs will be dict, ie:
+        # { 'an_attr': 'I am an attr',
+        # 'another_attr': 6,
+        # 'a_third_attr': 'I should not exist'}
+        # coercing types: make sure that interger returns interger
+
+
