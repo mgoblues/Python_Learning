@@ -1,0 +1,1 @@
+With a large number of runs, it seems the average displacement is proportional to the sqrt(steps) - 1

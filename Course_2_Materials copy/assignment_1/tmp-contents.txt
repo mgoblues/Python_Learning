@@ -1,0 +1,10 @@
+total 16
+lrwxr-xr-x  1 root        wheel   52 Jun  5 11:55 57544b7c92eb7 -> /private/etc/cups/ppd/HP_Color_LaserJet_CP2025dn.ppd
+lrwxr-xr-x  1 root        wheel   52 Jun 29 12:31 5773f7d6188f4 -> /private/etc/cups/ppd/HP_Color_LaserJet_CP2025dn.ppd
+drwx------  3 root        wheel  102 Jun 29 00:15 KSOutOfProcessFetcher.0.ppfIhqX0vjaTSb8AJYobDV7Cu68=
+drwx------  3 joelelster  wheel  102 Jun 29 00:17 KSOutOfProcessFetcher.501.ppfIhqX0vjaTSb8AJYobDV7Cu68=
+drwx------  3 joelelster  wheel  102 May 30 12:30 launch-Uj1W2T
+drwx------  3 joelelster  wheel  102 May 30 12:30 launch-eDFRNy
+drwx------  3 joelelster  wheel  102 May 30 12:30 launchd-155.zIOPTy
+drwx------  3 _spotlight  wheel  102 May 30 12:35 launchd-474.y88GCf
+drwx------  3 root        wheel  102 May 30 12:51 launchd-610.ZDU42k

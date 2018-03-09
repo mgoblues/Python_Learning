@@ -1,0 +1,10 @@
+In this excercise, I will attempt to answer which of the tokens are executable, flags, or arguments.
+
+1. ls -l ~/intro-programming
+
+In this line, <ls> would be the argument, <-l> would be the flag, and <~/intro-programming> would be the executable.
+
+2. git add func_list.c
+
+In this line, <git add> would be the argument, and <func_list.c> would be the exexecutable.
+  

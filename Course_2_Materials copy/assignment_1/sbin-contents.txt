@@ -1,0 +1,61 @@
+total 1984
+-r-xr-xr-x  1 root  wheel   37504 Sep 23  2014 SystemStarter
+-rwxr-xr-x  1 root  wheel   36000 Sep 23  2014 autodiskmount
+-rwxr-xr-x  1 root  wheel   34352 May 22  2014 disklabel
+-rwxr-xr-x  1 root  wheel   34688 Sep 23  2014 dmesg
+-rwxr-xr-x  1 root  wheel   58368 Sep 23  2014 dynamic_pager
+-rwxr-xr-x  1 root  wheel  200688 May 22  2014 emond
+-rwxr-xr-x  1 root  wheel   41168 Aug 25  2013 fibreconfig
+-r-xr-xr-x  1 root  wheel   19808 May 22  2014 fsck
+-rwxr-xr-x  1 root  wheel  131584 Sep 23  2014 fsck_cs
+lrwxr-xr-x  1 root  wheel      66 May 22  2014 fsck_exfat -> /System/Library/Filesystems/exfat.fs/Contents/Resources/fsck_exfat
+lrwxr-xr-x  1 root  wheel      62 May 22  2014 fsck_hfs -> /System/Library/Filesystems/hfs.fs/Contents/Resources/fsck_hfs
+lrwxr-xr-x  1 root  wheel      66 May 22  2014 fsck_msdos -> /System/Library/Filesystems/msdos.fs/Contents/Resources/fsck_msdos
+lrwxr-xr-x  1 root  wheel      62 May 22  2014 fsck_udf -> /System/Library/Filesystems/udf.fs/Contents/Resources/fsck_udf
+-r-xr-xr-x  1 root  wheel   14496 May 22  2014 fstyp
+-r-xr-xr-x  1 root  wheel   14624 May 22  2014 fstyp_hfs
+-r-xr-xr-x  1 root  wheel   14560 May 22  2014 fstyp_msdos
+-r-xr-xr-x  1 root  wheel   14560 May 22  2014 fstyp_ntfs
+-r-xr-xr-x  1 root  wheel   14656 May 22  2014 fstyp_udf
+-rwxr-xr-x  2 root  wheel   36096 Sep 23  2014 halt
+-r-xr-xr-x  1 root  wheel   63216 May 22  2014 ifconfig
+-r-xr-xr-x  1 root  wheel   33680 May 22  2014 ip6fw
+-r-xr-xr-x  1 root  wheel   55008 May 22  2014 ipfw
+-rwxr-xr-x  1 root  wheel   58080 Sep 23  2014 kextload
+-rwxr-xr-x  1 root  wheel   57904 Sep 23  2014 kextunload
+-r-xr-xr-x  1 root  wheel  194160 Sep 23  2014 launchd
+-rwxr-xr-x  1 root  wheel   24624 May 22  2014 md5
+-rwxr-xr-x  1 root  wheel   14368 May 22  2014 mknod
+-r-xr-xr-x  1 root  wheel   19952 May 22  2014 mount
+lrwxr-xr-x  1 root  wheel      59 May 22  2014 mount_acfs -> /System/Library/Filesystems/acfs.fs/Contents/bin/mount_acfs
+-rwxr-xr-x  1 root  wheel   19632 May 22  2014 mount_afp
+lrwxr-xr-x  1 root  wheel      69 May 22  2014 mount_cd9660 -> /System/Library/Filesystems/cd9660.fs/Contents/Resources/mount_cd9660
+lrwxr-xr-x  1 root  wheel      69 May 22  2014 mount_cddafs -> /System/Library/Filesystems/cddafs.fs/Contents/Resources/mount_cddafs
+-r-xr-xr-x  1 root  wheel   14384 May 22  2014 mount_devfs
+lrwxr-xr-x  1 root  wheel      67 May 22  2014 mount_exfat -> /System/Library/Filesystems/exfat.fs/Contents/Resources/mount_exfat
+-r-xr-xr-x  1 root  wheel   14608 May 22  2014 mount_fdesc
+lrwxr-xr-x  1 root  wheel      44 May 22  2014 mount_ftp -> /System/Library/Filesystems/ftp.fs/mount_ftp
+lrwxr-xr-x  1 root  wheel      63 May 22  2014 mount_hfs -> /System/Library/Filesystems/hfs.fs/Contents/Resources/mount_hfs
+lrwxr-xr-x  1 root  wheel      67 May 22  2014 mount_msdos -> /System/Library/Filesystems/msdos.fs/Contents/Resources/mount_msdos
+-r-xr-xr-x  1 root  wheel   42080 May 22  2014 mount_nfs
+lrwxr-xr-x  1 root  wheel      65 May 22  2014 mount_ntfs -> /System/Library/Filesystems/ntfs.fs/Contents/Resources/mount_ntfs
+-r-xr-xr-x  1 root  wheel   48384 Sep 23  2014 mount_smbfs
+lrwxr-xr-x  1 root  wheel      63 May 22  2014 mount_udf -> /System/Library/Filesystems/udf.fs/Contents/Resources/mount_udf
+-rwxr-xr-x  1 root  wheel   14336 Sep 23  2014 mount_webdav
+-rwxr-xr-x  1 root  wheel   68672 Sep 23  2014 mpioutil
+lrwxr-xr-x  1 root  wheel      67 May 22  2014 newfs_exfat -> /System/Library/Filesystems/exfat.fs/Contents/Resources/newfs_exfat
+lrwxr-xr-x  1 root  wheel      63 May 22  2014 newfs_hfs -> /System/Library/Filesystems/hfs.fs/Contents/Resources/newfs_hfs
+lrwxr-xr-x  1 root  wheel      67 May 22  2014 newfs_msdos -> /System/Library/Filesystems/msdos.fs/Contents/Resources/newfs_msdos
+lrwxr-xr-x  1 root  wheel      63 May 22  2014 newfs_udf -> /System/Library/Filesystems/udf.fs/Contents/Resources/newfs_udf
+-r-xr-xr-x  1 root  wheel  100864 May 22  2014 nfsd
+-r-xr-xr-x  1 root  wheel   14384 May 22  2014 nfsiod
+-rwxr-xr-x  1 root  wheel   34512 Sep 23  2014 nologin
+-r-xr-xr-x  1 root  wheel  204624 May 22  2014 pfctl
+-r-xr-xr-x  1 root  wheel   32944 May 22  2014 ping
+-r-xr-xr-x  1 root  wheel   42512 May 22  2014 ping6
+-r-xr-xr-x  1 root  wheel   24528 May 22  2014 quotacheck
+-rwxr-xr-x  2 root  wheel   36096 Sep 23  2014 reboot
+-r-xr-xr-x  1 root  wheel   29440 May 22  2014 route
+-r-xr-xr-x  1 root  wheel   28752 May 22  2014 rtsol
+-rwxr-xr-x  1 root  wheel   58848 Sep 23  2014 shutdown
+-r-xr-xr-x  1 root  wheel   20352 May 22  2014 umount
