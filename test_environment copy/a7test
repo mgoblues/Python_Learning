@@ -1,3 +1,0 @@
-qualifier = 1000
-
-print(qualifier)

@@ -1,5 +1,0 @@
-total 108
--rw-r--r-- 1 root    root    58923 Jul  8 06:12 ruby-build.20160708061021.3598.log
-drwx------ 2 vagrant vagrant  4096 Jul  8 06:34 ssh-GITCDhi17264
-drwx------ 2 vagrant vagrant  4096 Jul  8 21:48 ssh-xEjhyNq17881
--rwx--x--x 1 vagrant vagrant 37108 Jul  8 06:07 vagrant-shell

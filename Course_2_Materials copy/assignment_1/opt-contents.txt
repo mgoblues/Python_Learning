@@ -1,3 +1,0 @@
-total 0
-drwxr-xr-x  4 root  wheel  136 Dec 12  2013 cisco
-drwxr-xr-x  4 root  wheel  136 Jun 27 18:14 vagrant
