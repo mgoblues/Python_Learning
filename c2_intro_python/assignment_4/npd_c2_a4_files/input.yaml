@@ -1,0 +1,20 @@
+data:
+  - first_name: mark
+    last_name: twain
+    month: 8
+    color: blood red
+    year: 1864
+    movie: Blazing Saddles
+  - first_name: andrew
+    last_name: jackson
+    month: 2
+    year: 1765
+    color: money green
+    movie: the rise and fall of aaron burr
+  - first_name: HAL
+    color: binary
+    last_name: 2000
+    month: 1
+    year: 2001
+    movie: it came from outer space
+
